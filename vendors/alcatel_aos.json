@@ -1,0 +1,100 @@
+{
+  "id": "alcatel_aos",
+  "label": "Alcatel-Lucent OmniSwitch (AOS 6 / 8)",
+  "driver": "alcatel_aos",
+  "sections": {
+    "identity": [
+      "show system"
+    ],
+    "stack": [
+      "show chassis"
+    ],
+    "interfaces": [
+      "show interfaces status"
+    ],
+    "aliases": [
+      "show interfaces alias"
+    ],
+    "lldp": [
+      "show lldp remote-system"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "memberships": [
+      "show vlan members",
+      "show vlan port"
+    ],
+    "aggregation": [
+      "show linkagg port"
+    ],
+    "fdb": [
+      "show mac-learning",
+      "show mac-address-table"
+    ],
+    "arp": [
+      "show arp"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "addressing": [
+      "show ip interface",
+      "show ipv6 interface"
+    ],
+    "ospf": [
+      "show ip ospf neighbor",
+      "show ip ospf interface",
+      "show ip ospf area"
+    ],
+    "bgp": [
+      "show ip bgp neighbors"
+    ],
+    "redundancy": [
+      "show vrrp"
+    ],
+    "spanningTree": [
+      "show spantree"
+    ],
+    "policy": [
+      "show ip route-map"
+    ],
+    "services": [
+      "show configuration snapshot",
+      "show ntp server-list",
+      "show ip domain-name"
+    ],
+    "health": [
+      "show interfaces",
+      "show health"
+    ],
+    "routes": [
+      "show ip routes"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "stack",
+    "interfaces",
+    "aliases",
+    "lldp",
+    "vlans",
+    "memberships",
+    "aggregation",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": [
+    "addressing",
+    "ospf",
+    "bgp",
+    "redundancy",
+    "spanningTree",
+    "policy",
+    "services",
+    "health",
+    "routes"
+  ]
+}

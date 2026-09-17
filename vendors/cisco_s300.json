@@ -1,0 +1,40 @@
+{
+  "id": "cisco_s300",
+  "label": "Cisco Small Business",
+  "driver": "cisco_s300",
+  "sections": {
+    "identity": [
+      "show system",
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces status"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "lldp": [
+      "show lldp neighbors detail",
+      "show lldp neighbors"
+    ],
+    "poe": [
+      "show power inline"
+    ],
+    "transceivers": [
+      "show fiber-ports optical-transceiver"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "poe",
+    "transceivers"
+  ],
+  "documentationOrder": []
+}

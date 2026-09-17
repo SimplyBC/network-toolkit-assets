@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Fortinet FortiGate / FortiOS",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\b(?:FortiGate|FortiOS)\\b",
+    "examples": [
+      "FortiGate 100F FortiOS 7.4"
+    ],
+    "source": "https://docs.fortinet.com/products/fortigate"
+  },
+  {
+    "name": "Fortinet FortiSwitch",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortiSwitch\\b",
+    "examples": [
+      "FortiSwitch 248E"
+    ],
+    "source": "https://docs.fortinet.com/products/fortiswitch"
+  },
+  {
+    "name": "Fortinet FortiManager / FortiAnalyzer / FortiAuthenticator / FortiADC / FortiWeb",
+    "kind": "Network appliance",
+    "deviceType": "server",
+    "pattern": "\\b(?:FortiManager|FortiAnalyzer|FortiAuthenticator|FortiADC|FortiWeb)\\b",
+    "examples": [
+      "FortiManager"
+    ],
+    "source": "https://docs.fortinet.com/products"
+  },
+  {
+    "name": "Arista EOS",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\s+(?:(?:Networks\\s+)?EOS|DCS-\\d)",
+    "examples": [
+      "Arista EOS 4.32"
+    ],
+    "source": "https://www.arista.com/en/products/eos"
+  },
+  {
+    "name": "Arista CloudVision",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\b(?:Arista\\s+)?CloudVision\\b",
+    "examples": [
+      "Arista CloudVision"
+    ],
+    "source": "https://www.arista.com/en/products/eos/eos-cloudvision"
+  },
+  {
+    "name": "Extreme EXOS / Switch Engine / VOSS / Fabric Engine",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:ExtremeXOS|Extreme\\s+(?:Networks\\s+)?(?:EXOS|Switch Engine|VOSS|Fabric Engine|Summit|BlackDiamond))\\b",
+    "examples": [
+      "ExtremeXOS version 32.7"
+    ],
+    "source": "https://documentation.extremenetworks.com/"
+  },
+  {
+    "name": "Ruckus / Brocade ICX / FastIron",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:(?:Ruckus|Brocade)\\s+(?:ICX\\s*\\d|FastIron)|FastIron\\s+(?:ICX|Operating System))",
+    "examples": [
+      "Ruckus ICX 7150"
+    ],
+    "source": "https://support.ruckuswireless.com/product_families/26-ruckus-icx-switches"
+  },
+  {
+    "name": "Brocade Fabric OS",
+    "kind": "Storage switch",
+    "deviceType": "switch",
+    "pattern": "\\bBrocade\\s+(?:Fabric OS|G[67]\\d\\d)\\b",
+    "examples": [
+      "Brocade Fabric OS 9.2"
+    ],
+    "source": "https://www.broadcom.com/products/fibre-channel-networking/software/fabric-operating-system"
+  },
+  {
+    "name": "Dell OS9 / OS10 / PowerConnect / Networking",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\s+(?:(?:SmartFabric\\s+)?OS(?:9|10)|PowerConnect|Networking\\s+[SN]\\d)\\b",
+    "examples": [
+      "Dell SmartFabric OS10"
+    ],
+    "source": "https://www.dell.com/support/home/en-us/product-support/product/networking-smartfabric-os10/docs"
+  },
+  {
+    "name": "NVIDIA / Mellanox Onyx / Cumulus Linux",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:(?:NVIDIA|Mellanox)\\s+(?:Onyx|MLNX-OS)|Cumulus\\s+Linux)\\b",
+    "examples": [
+      "Cumulus Linux 5.9"
+    ],
+    "source": "https://docs.nvidia.com/networking-ethernet-software/"
+  },
+  {
+    "name": "Huawei VRP / CloudEngine / S-series",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\s+(?:(?:Versatile Routing Platform|VRP)|CloudEngine|S[3567]\\d{3})\\b",
+    "examples": [
+      "Huawei CloudEngine"
+    ],
+    "source": "https://support.huawei.com/enterprise/en/switches"
+  },
+  {
+    "name": "H3C / HPE Comware",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:(?:H3C|HPE?|Hewlett[- ]Packard)\\s+Comware|H3C\\s+S[12567]\\d{3})\\b",
+    "examples": [
+      "H3C Comware Software 7.1"
+    ],
+    "source": "https://www.h3c.com/en/Support/Document_Software/Document_Center/"
+  },
+  {
+    "name": "Juniper SRX",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bJuniper\\s+(?:Networks\\s+)?(?:JUNOS\\s+)?SRX\\d*\\b",
+    "examples": [
+      "Juniper Networks SRX340"
+    ],
+    "source": "https://www.juniper.net/documentation/product/us/en/srx-series/"
+  },
+  {
+    "name": "Juniper MX / ACX / PTX",
+    "kind": "Router",
+    "deviceType": "router",
+    "pattern": "\\bJuniper\\s+(?:Networks\\s+)?(?:JUNOS\\s+)?(?:MX|ACX|PTX)\\d+\\b",
+    "examples": [
+      "Juniper MX480"
+    ],
+    "source": "https://www.juniper.net/documentation/product/us/en/mx-series/"
+  },
+  {
+    "name": "Cisco IOS XR",
+    "kind": "Router",
+    "deviceType": "router",
+    "pattern": "\\bCisco\\s+IOS[ -]XR\\b",
+    "examples": [
+      "Cisco IOS XR Software"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xr-software/series.html"
+  },
+  {
+    "name": "Cisco ASA / Firepower / Secure Firewall",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bCisco\\s+(?:ASA\\b|Adaptive Security Appliance\\b|Firepower\\b|Secure Firewall\\b)",
+    "examples": [
+      "Cisco Adaptive Security Appliance Software"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/security/firewalls/index.html"
+  },
+  {
+    "name": "Cisco ISE",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+(?:Identity Services Engine|ISE)\\b",
+    "examples": [
+      "Cisco Identity Services Engine"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/security/identity-services-engine/series.html"
+  },
+  {
+    "name": "Cisco AireOS / Catalyst wireless controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+(?:AireOS|Wireless LAN Controller|Catalyst 9800)\\b",
+    "examples": [
+      "Cisco Wireless LAN Controller"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html"
+  },
+  {
+    "name": "Check Point Gaia / Quantum",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bCheck\\s*Point\\s+(?:Gaia|Quantum|Security Gateway)\\b",
+    "examples": [
+      "Check Point Gaia"
+    ],
+    "source": "https://sc1.checkpoint.com/documents/latest/Gaia_WebAdminGuide/EN/Content/Topics-GAG/Introduction-to-Gaia.htm"
+  },
+  {
+    "name": "SonicWall SonicOS",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\b(?:SonicOS|SonicWall\\s+(?:TZ|NSa|NSsp|SuperMassive)\\s*\\d)\\b",
+    "examples": [
+      "SonicOS 7"
+    ],
+    "source": "https://www.sonicwall.com/support/technical-documentation/"
+  },
+  {
+    "name": "Sophos Firewall / UTM",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bSophos\\s+(?:Firewall|UTM|XG|XGS)\\b",
+    "examples": [
+      "Sophos Firewall"
+    ],
+    "source": "https://docs.sophos.com/nsg/sophos-firewall/"
+  },
+  {
+    "name": "WatchGuard Firebox / Fireware",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\b(?:WatchGuard\\s+(?:Firebox|Fireware)|Fireware\\s+OS)\\b",
+    "examples": [
+      "WatchGuard Firebox"
+    ],
+    "source": "https://www.watchguard.com/wgrd-help/documentation/overview"
+  },
+  {
+    "name": "Netgate pfSense",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bpfSense\\b",
+    "examples": [
+      "pfSense Plus"
+    ],
+    "source": "https://docs.netgate.com/pfsense/en/latest/"
+  },
+  {
+    "name": "Deciso OPNsense",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bOPNsense\\b",
+    "examples": [
+      "OPNsense 25.7"
+    ],
+    "source": "https://docs.opnsense.org/"
+  },
+  {
+    "name": "MikroTik RouterOS / SwOS",
+    "kind": "Router / switch",
+    "deviceType": "router",
+    "pattern": "\\b(?:MikroTik\\s+(?:RouterOS|SwOS)|RouterOS|SwOS)\\b",
+    "examples": [
+      "MikroTik RouterOS"
+    ],
+    "source": "https://help.mikrotik.com/docs/"
+  },
+  {
+    "name": "Ubiquiti EdgeRouter / EdgeSwitch",
+    "kind": "Router / switch",
+    "deviceType": "router",
+    "pattern": "\\b(?:Ubiquiti\\s+)?(?:EdgeRouter|EdgeSwitch|EdgeOS)\\b",
+    "examples": [
+      "EdgeRouter"
+    ],
+    "source": "https://help.uisp.com/hc/en-us/categories/22590827553559-EdgeMAX"
+  },
+  {
+    "name": "Ubiquiti UniFi gateway / switch",
+    "kind": "Router / switch",
+    "deviceType": "router",
+    "pattern": "\\b(?:Ubiquiti\\s+)?UniFi\\s+(?:Switch|Gateway|Dream Machine)\\b",
+    "examples": [
+      "UniFi Dream Machine"
+    ],
+    "source": "https://help.ui.com/hc/en-us/categories/200320654-UniFi"
+  },
+  {
+    "name": "TP-Link Omada switch / router",
+    "kind": "Router / switch",
+    "deviceType": "router",
+    "pattern": "\\bTP-Link\\s+(?:Omada\\s+(?:Switch|Router|Controller)|JetStream)\\b",
+    "examples": [
+      "TP-Link JetStream"
+    ],
+    "source": "https://www.tp-link.com/us/business-networking/"
+  },
+  {
+    "name": "NETGEAR managed switches",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\s+(?:(?:ProSAFE\\s+)?(?:Managed Switch|Smart Switch)|M[247]\\d{3})\\b",
+    "examples": [
+      "NETGEAR M4300"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "D-Link DGS / DXS",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bD-Link\\s+(?:DGS|DXS)-\\d+\\b",
+    "examples": [
+      "D-Link DGS-1510"
+    ],
+    "source": "https://www.dlink.com/en/business"
+  },
+  {
+    "name": "Allied Telesis AlliedWare Plus",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:AlliedWare\\s+Plus|Allied Telesis\\s+(?:AT-|x[259]\\d))",
+    "examples": [
+      "AlliedWare Plus"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/documents"
+  },
+  {
+    "name": "Nokia SR OS / SR Linux",
+    "kind": "Router",
+    "deviceType": "router",
+    "pattern": "\\bNokia\\s+SR\\s+(?:OS|Linux)\\b",
+    "examples": [
+      "Nokia SR OS"
+    ],
+    "source": "https://documentation.nokia.com/"
+  },
+  {
+    "name": "VyOS",
+    "kind": "Router",
+    "deviceType": "router",
+    "pattern": "\\bVyOS\\b",
+    "examples": [
+      "VyOS 1.4"
+    ],
+    "source": "https://docs.vyos.io/"
+  },
+  {
+    "name": "F5 BIG-IP",
+    "kind": "Application delivery",
+    "deviceType": "server",
+    "pattern": "\\b(?:F5\\s+)?BIG-IP\\b",
+    "examples": [
+      "F5 BIG-IP Configuration Utility"
+    ],
+    "source": "https://my.f5.com/manage/s/topic/0TO1T0000006rbaWAA/bigip"
+  },
+  {
+    "name": "Citrix NetScaler",
+    "kind": "Application delivery",
+    "deviceType": "server",
+    "pattern": "\\b(?:Citrix\\s+)?NetScaler\\b",
+    "examples": [
+      "Citrix NetScaler"
+    ],
+    "source": "https://docs.netscaler.com/"
+  },
+  {
+    "name": "A10 Thunder / ACOS",
+    "kind": "Application delivery",
+    "deviceType": "server",
+    "pattern": "\\bA10\\s+(?:Networks\\s+)?(?:Thunder|ACOS)\\b",
+    "examples": [
+      "A10 Networks Thunder"
+    ],
+    "source": "https://documentation.a10networks.com/"
+  },
+  {
+    "name": "BlueCat Address Manager / DNS-DHCP Server",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+(?:Address Manager|DNS[- ]DHCP Server|Integrity)\\b",
+    "examples": [
+      "BlueCat Address Manager"
+    ],
+    "source": "https://docs.bluecatnetworks.com/"
+  },
+  {
+    "name": "EfficientIP SOLIDserver",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\b(?:EfficientIP\\s+)?SOLIDserver\\b",
+    "examples": [
+      "EfficientIP SOLIDserver"
+    ],
+    "source": "https://www.efficientip.com/products/solidserver-ddi/"
+  },
+  {
+    "name": "VMware ESX / ESXi",
+    "kind": "Hypervisor",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+(?:ESXi?\\b|Host Client\\b)",
+    "examples": [
+      "VMware ESXi 8.0"
+    ],
+    "source": "https://blogs.vmware.com/code/2022/10/12/esxi-host-client/"
+  },
+  {
+    "name": "VMware vCenter",
+    "kind": "Virtualization management",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+(?:vCenter|vSphere Client)\\b",
+    "examples": [
+      "VMware vCenter Server"
+    ],
+    "source": "https://www.vmware.com/products/cloud-infrastructure/vsphere/vcenter-server"
+  },
+  {
+    "name": "Microsoft Hyper-V",
+    "kind": "Hypervisor",
+    "deviceType": "server",
+    "pattern": "\\bMicrosoft\\s+Hyper-V\\b",
+    "examples": [
+      "Microsoft Hyper-V"
+    ],
+    "source": "https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview"
+  },
+  {
+    "name": "Proxmox VE",
+    "kind": "Hypervisor",
+    "deviceType": "server",
+    "pattern": "\\bProxmox\\s+(?:VE|Virtual Environment)\\b",
+    "examples": [
+      "Proxmox Virtual Environment"
+    ],
+    "source": "https://www.proxmox.com/en/products/proxmox-virtual-environment/overview"
+  },
+  {
+    "name": "HPE / HP iLO",
+    "kind": "Server management",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE?|Hewlett[- ]Packard)\\s+(?:iLO\\b|Integrated Lights[- ]Out\\b)",
+    "examples": [
+      "HPE iLO 5"
+    ],
+    "source": "https://www.hpe.com/us/en/what-is/ilo.html"
+  },
+  {
+    "name": "Dell iDRAC",
+    "kind": "Server management",
+    "deviceType": "server",
+    "pattern": "\\bDell\\s+(?:iDRAC\\b|Remote Access Controller\\b)",
+    "examples": [
+      "Dell iDRAC 9"
+    ],
+    "source": "https://www.dell.com/en-us/dt/solutions/openmanage/idrac.htm"
+  },
+  {
+    "name": "Lenovo XClarity Controller",
+    "kind": "Server management",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\s+XClarity\\s+Controller\\b",
+    "examples": [
+      "Lenovo XClarity Controller"
+    ],
+    "source": "https://pubs.lenovo.com/lxcc-overview/"
+  },
+  {
+    "name": "NetApp ONTAP / FAS / AFF",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\s+(?:ONTAP|FAS\\d*|AFF\\d*)\\b",
+    "examples": [
+      "NetApp ONTAP"
+    ],
+    "source": "https://docs.netapp.com/us-en/ontap/"
+  },
+  {
+    "name": "Dell EMC Unity / PowerStore / PowerScale",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\s+(?:EMC\\s+)?(?:Unity|PowerStore|PowerScale)\\b",
+    "examples": [
+      "Dell EMC PowerStore"
+    ],
+    "source": "https://www.dell.com/en-us/shop/data-storage-and-backup/sf/storage-products"
+  },
+  {
+    "name": "Pure Storage FlashArray",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bPure\\s+Storage\\s+FlashArray\\b",
+    "examples": [
+      "Pure Storage FlashArray"
+    ],
+    "source": "https://www.purestorage.com/products/unified-block-and-file-storage/flasharray.html"
+  },
+  {
+    "name": "Nutanix Prism",
+    "kind": "Virtualization management",
+    "deviceType": "server",
+    "pattern": "\\bNutanix\\s+(?:Prism|AHV)\\b",
+    "examples": [
+      "Nutanix Prism"
+    ],
+    "source": "https://www.nutanix.com/products/prism"
+  }
+]

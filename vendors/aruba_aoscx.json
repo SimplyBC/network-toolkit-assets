@@ -1,0 +1,102 @@
+{
+  "id": "aruba_aoscx",
+  "label": "Aruba AOS-CX",
+  "driver": "aruba_aoscx",
+  "sections": {
+    "identity": [
+      "show system",
+      "show version"
+    ],
+    "interfaces": [
+      "show interface brief"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "lldp": [
+      "show lldp neighbor-info detail"
+    ],
+    "arp": [
+      "show arp all-vrfs",
+      "show arp"
+    ],
+    "fdb": [
+      "show mac-address-table"
+    ],
+    "aggregation": [
+      "show lacp interfaces"
+    ],
+    "stack": [
+      "show vsf detail"
+    ],
+    "poe": [
+      "show power-over-ethernet brief"
+    ],
+    "transceivers": [
+      "show interface transceiver"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "addressing": [
+      "show ip interface brief",
+      "show ipv6 interface brief"
+    ],
+    "ospf": [
+      "show ip ospf neighbors all-vrfs",
+      "show ip ospf interface brief all-vrfs",
+      "show ip ospf all-vrfs"
+    ],
+    "bgp": [
+      "show bgp all-vrfs all summary"
+    ],
+    "redundancy": [
+      "show vrrp"
+    ],
+    "spanningTree": [
+      "show spanning-tree"
+    ],
+    "policy": [
+      "show route-map"
+    ],
+    "services": [
+      "show running-config",
+      "show ntp associations",
+      "show ip dns"
+    ],
+    "health": [
+      "show interface",
+      "show environment temperature",
+      "show environment power-supply"
+    ],
+    "routes": [
+      "show ip route all-vrfs",
+      "show ipv6 route all-vrfs"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "arp",
+    "fdb",
+    "aggregation",
+    "stack",
+    "poe",
+    "transceivers"
+  ],
+  "documentationOrder": [
+    "addressing",
+    "ospf",
+    "bgp",
+    "redundancy",
+    "spanningTree",
+    "policy",
+    "services",
+    "health",
+    "routes"
+  ]
+}

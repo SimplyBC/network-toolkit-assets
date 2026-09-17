@@ -1,0 +1,113 @@
+{
+  "id": "cisco_ios",
+  "label": "Cisco IOS / IOS-XE",
+  "driver": "cisco_ios",
+  "sections": {
+    "identity": [
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces status",
+      "show ip interface brief"
+    ],
+    "vlans": [
+      "show vlan brief"
+    ],
+    "lldp": [
+      "show lldp neighbors detail"
+    ],
+    "cdp": [
+      "show cdp neighbors detail"
+    ],
+    "fdb": [
+      "show mac address-table",
+      "show mac-address-table"
+    ],
+    "arp": [
+      "show ip arp"
+    ],
+    "poe": [
+      "show power inline"
+    ],
+    "transceivers": [
+      "show interfaces transceiver detail"
+    ],
+    "aggregation": [
+      "show etherchannel summary"
+    ],
+    "trunks": [
+      "show interfaces trunk"
+    ],
+    "stack": [
+      "show switch"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "addressing": [
+      "show ip interface",
+      "show ipv6 interface brief"
+    ],
+    "ospf": [
+      "show ip ospf neighbor",
+      "show ip ospf interface brief",
+      "show ip ospf"
+    ],
+    "bgp": [
+      "show ip bgp summary"
+    ],
+    "redundancy": [
+      "show vrrp brief",
+      "show standby brief"
+    ],
+    "spanningTree": [
+      "show spanning-tree",
+      "show spanning-tree root"
+    ],
+    "policy": [
+      "show route-map",
+      "show ip protocols"
+    ],
+    "services": [
+      "show running-config",
+      "show ntp associations",
+      "show hosts",
+      "show ip interface"
+    ],
+    "health": [
+      "show interfaces counters errors",
+      "show environment temperature"
+    ],
+    "routes": [
+      "show ip route",
+      "show ipv6 route"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "cdp",
+    "fdb",
+    "arp",
+    "poe",
+    "transceivers",
+    "aggregation",
+    "trunks",
+    "stack"
+  ],
+  "documentationOrder": [
+    "addressing",
+    "ospf",
+    "bgp",
+    "redundancy",
+    "spanningTree",
+    "policy",
+    "services",
+    "health",
+    "routes"
+  ]
+}

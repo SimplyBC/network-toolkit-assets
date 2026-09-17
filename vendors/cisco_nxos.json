@@ -1,0 +1,103 @@
+{
+  "id": "cisco_nxos",
+  "label": "Cisco NX-OS",
+  "driver": "cisco_nxos",
+  "sections": {
+    "identity": [
+      "show version"
+    ],
+    "interfaces": [
+      "show interface status"
+    ],
+    "vlans": [
+      "show vlan brief"
+    ],
+    "lldp": [
+      "show lldp neighbors detail"
+    ],
+    "cdp": [
+      "show cdp neighbors detail"
+    ],
+    "fdb": [
+      "show mac address-table"
+    ],
+    "arp": [
+      "show ip arp vrf all",
+      "show ip arp"
+    ],
+    "poe": [
+      "show environment power"
+    ],
+    "transceivers": [
+      "show interface transceiver details"
+    ],
+    "aggregation": [
+      "show port-channel summary"
+    ],
+    "trunks": [
+      "show interface trunk"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "addressing": [
+      "show ip interface vrf all",
+      "show ipv6 interface brief"
+    ],
+    "ospf": [
+      "show ip ospf neighbor",
+      "show ip ospf interface brief"
+    ],
+    "bgp": [
+      "show ip bgp summary vrf all"
+    ],
+    "redundancy": [
+      "show vrrp",
+      "show hsrp brief"
+    ],
+    "spanningTree": [
+      "show spanning-tree",
+      "show spanning-tree root"
+    ],
+    "policy": [
+      "show route-map"
+    ],
+    "services": [
+      "show running-config",
+      "show ntp peers"
+    ],
+    "health": [
+      "show interface counters errors",
+      "show environment temperature"
+    ],
+    "routes": [
+      "show ip route vrf all"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "cdp",
+    "fdb",
+    "arp",
+    "poe",
+    "transceivers",
+    "aggregation",
+    "trunks"
+  ],
+  "documentationOrder": [
+    "addressing",
+    "ospf",
+    "bgp",
+    "redundancy",
+    "spanningTree",
+    "policy",
+    "services",
+    "health",
+    "routes"
+  ]
+}

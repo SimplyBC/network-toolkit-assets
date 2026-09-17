@@ -1,0 +1,12 @@
+{
+  "id": "paloalto_panos",
+  "label": "Palo Alto firewall \u00b7 XML API",
+  "driver": "paloalto_panos",
+  "sections": {},
+  "timeoutSeconds": 30,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [],
+  "documentationOrder": []
+}

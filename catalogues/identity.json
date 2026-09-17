@@ -1,0 +1,93 @@
+[
+  {
+    "containsAll": [
+      "omniswitch"
+    ],
+    "deviceType": "switch",
+    "platform": "alcatel_aos"
+  },
+  {
+    "containsAll": [
+      "clearpass"
+    ],
+    "deviceType": "clearpass",
+    "platform": ""
+  },
+  {
+    "containsAll": [
+      "arubaos-cx"
+    ],
+    "deviceType": "switch",
+    "platform": "aruba_aoscx"
+  },
+  {
+    "containsAll": [
+      "aos-cx"
+    ],
+    "deviceType": "switch",
+    "platform": "aruba_aoscx"
+  },
+  {
+    "containsAll": [
+      "nx-os"
+    ],
+    "deviceType": "switch",
+    "platform": "cisco_nxos"
+  },
+  {
+    "containsAll": [
+      "cisco ios"
+    ],
+    "deviceType": "switch",
+    "platform": "cisco_ios"
+  },
+  {
+    "containsAll": [
+      "procurve"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_procurve"
+  },
+  {
+    "containsAll": [
+      "arubaos-switch"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_procurve"
+  },
+  {
+    "containsAll": [
+      "arubaos"
+    ],
+    "deviceType": "mobility",
+    "platform": "aruba_os"
+  },
+  {
+    "containsAll": [
+      "pan-os"
+    ],
+    "deviceType": "paloalto",
+    "platform": ""
+  },
+  {
+    "containsAll": [
+      "panorama"
+    ],
+    "deviceType": "paloalto",
+    "platform": ""
+  },
+  {
+    "containsAll": [
+      "infoblox"
+    ],
+    "deviceType": "infoblox",
+    "platform": "infoblox_nios"
+  },
+  {
+    "containsAll": [
+      "fortinac"
+    ],
+    "deviceType": "fortinac",
+    "platform": ""
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "category": "access_point",
+    "product": "Aruba access point",
+    "pattern": "\\b(?:Aruba(?: Networks|OS)?[ ():-]{1,12}(?:(?:Instant )?(?:I?AP|RAP)[ -]?\\d{2,3}[A-Z]?\\b|MODEL:\\s*\\d{3}[A-Z]?\\b)|Aruba Instant On\\s+AP\\d{2,3}[A-Z]?\\b|Aruba Instant\\b(?! On)|Instant AP\\b|AOS-10\\s*\\(MODEL:\\s*\\d{3}[A-Z]?\\),\\s*Aruba\\s+I?AP\\b)"
+  },
+  {
+    "category": "access_point",
+    "product": "Cisco Meraki access point",
+    "pattern": "\\b(?:Cisco\\s+)?Meraki\\s+MR\\d{2,3}\\b"
+  },
+  {
+    "category": "access_point",
+    "product": "Cisco access point",
+    "pattern": "\\bCisco\\s+(?:Aironet\\b|AIR-(?:AP|CAP|LAP)\\d|(?:Catalyst\\s+)?(?:C91\\d{2}|CW916\\d)[A-Z-])"
+  },
+  {
+    "category": "access_point",
+    "product": "Juniper Mist access point",
+    "pattern": "\\b(?:Juniper(?: Networks)?(?: Mist)?|Mist)\\s+AP\\d{2,3}[A-Z]?(?=\\b|-)"
+  },
+  {
+    "category": "access_point",
+    "product": "Ubiquiti UniFi access point",
+    "pattern": "\\b(?:Ubiquiti\\s+)?UniFi\\s+(?:AP\\b|UAP[- ]|U[67](?:\\+|[- ](?:Pro|Lite|LR|Long.Range|Enterprise|Mesh|In.Wall)))"
+  },
+  {
+    "category": "access_point",
+    "product": "Fortinet FortiAP",
+    "pattern": "\\bFortiAP(?:[- ]\\d{2,3}[A-Z]*)?\\b"
+  },
+  {
+    "category": "access_point",
+    "product": "Ruckus access point",
+    "pattern": "\\bRuckus\\s+[RHT]\\d{3}[A-Z]?\\b"
+  },
+  {
+    "category": "access_point",
+    "product": "TP-Link access point",
+    "pattern": "\\bTP-Link\\s+(?:Omada\\s+)?EAP\\d{3,4}[A-Z]*\\b"
+  },
+  {
+    "category": "access_point",
+    "product": "Extreme access point",
+    "pattern": "\\bExtreme(?: Networks)?\\s+AP\\d{3,4}[A-Z]*\\b"
+  },
+  {
+    "category": "camera",
+    "product": "AXIS network camera",
+    "pattern": "\\bAXIS\\s+(?:[MPQ]\\d{4}[A-Z-]*\\b|(?:network|IP) camera\\b)"
+  },
+  {
+    "category": "camera",
+    "product": "Hikvision network camera",
+    "pattern": "\\bHikvision\\s+(?:DS-2CD[A-Z0-9-]+\\b|(?:network|IP) camera\\b)"
+  },
+  {
+    "category": "camera",
+    "product": "Dahua network camera",
+    "pattern": "\\bDahua\\s+(?:(?:DH-)?IPC-[A-Z0-9-]+\\b|(?:network|IP) camera\\b)"
+  },
+  {
+    "category": "camera",
+    "product": "Hanwha network camera",
+    "pattern": "\\b(?:Hanwha(?: Vision| Techwin)?|Wisenet)\\s+(?:[XPQ]N[DVBO]-\\d{4}[A-Z-]*\\b|(?:network|IP) camera\\b)"
+  },
+  {
+    "category": "camera",
+    "product": "Bosch network camera",
+    "pattern": "\\bBosch\\s+(?:FLEXIDOME|DINION|AUTODOME|(?:network|IP) camera)\\b"
+  },
+  {
+    "category": "camera",
+    "product": "VIVOTEK network camera",
+    "pattern": "\\bVIVOTEK\\s+(?:(?:FD|IB|IP|SD)\\d{4}[A-Z-]*\\b|(?:network|IP) camera\\b)"
+  },
+  {
+    "category": "access_control",
+    "product": "AXIS door controller",
+    "pattern": "\\bAXIS\\s+(?:A(?:1001|1210|1610)\\b|(?:network )?door controller\\b)"
+  },
+  {
+    "category": "access_control",
+    "product": "Hikvision access control terminal",
+    "pattern": "\\bHikvision\\s+(?:DS-K1T[A-Z0-9-]+\\b|access control (?:terminal|controller)\\b)"
+  },
+  {
+    "category": "access_control",
+    "product": "Dahua access control terminal",
+    "pattern": "\\bDahua\\s+(?:(?:DHI-)?ASI\\d{3,4}[A-Z0-9-]*\\b|access control (?:terminal|controller)\\b)"
+  },
+  {
+    "category": "access_control",
+    "product": "Paxton Net2 controller",
+    "pattern": "\\bPaxton\\s+Net2\\s+(?:Plus|Classic|(?:door )?controller)\\b"
+  },
+  {
+    "category": "access_control",
+    "product": "HID access controller",
+    "pattern": "\\bHID\\s+(?:VertX(?: EVO)?\\s+V(?:1000|2000)\\b|Aero\\s+X1100\\b)"
+  },
+  {
+    "category": "printer",
+    "product": "HP printer",
+    "pattern": "\\b(?:HP|Hewlett-Packard)\\s+(?:(?:Color\\s+)?LaserJet|OfficeJet|DeskJet|DesignJet|PageWide)\\b"
+  },
+  {
+    "category": "printer",
+    "product": "Brother printer",
+    "pattern": "\\bBrother\\s+(?:MFC|HL|DCP)-[A-Z]?\\d{3,5}[A-Z]*\\b"
+  },
+  {
+    "category": "printer",
+    "product": "Xerox printer",
+    "pattern": "\\bXerox\\s+(?:VersaLink|AltaLink|WorkCentre|Phaser)\\b"
+  },
+  {
+    "category": "printer",
+    "product": "Canon printer",
+    "pattern": "\\bCanon\\s+(?:imageRUNNER|imageCLASS|i-SENSYS|MAXIFY|PIXMA)\\b"
+  },
+  {
+    "category": "printer",
+    "product": "Epson printer",
+    "pattern": "\\bEpson\\s+(?:WorkForce|EcoTank|SureColor)\\b"
+  },
+  {
+    "category": "printer",
+    "product": "Kyocera printer",
+    "pattern": "\\bKyocera\\s+(?:ECOSYS|TASKalfa)\\b"
+  },
+  {
+    "category": "power",
+    "product": "APC power equipment",
+    "pattern": "\\bAPC\\s+(?:Smart-UPS|Back-UPS|Symmetra|(?:Switched |Metered |Rack )?PDU|(?:UPS )?Network Management Card(?: \\d)?|AP964[013])\\b"
+  },
+  {
+    "category": "power",
+    "product": "Eaton power equipment",
+    "pattern": "\\bEaton\\s+(?:[59]P[X]?\\b|9SX\\b|9130\\b|NETWORK-M[23S]\\b|(?:UPS|(?:rack )?PDU)\\b)"
+  },
+  {
+    "category": "power",
+    "product": "Vertiv power equipment",
+    "pattern": "\\b(?:Vertiv\\s+(?:Liebert\\s+)?|Liebert\\s+)(?:GXT\\d\\b|ITA2\\b|PSI5\\b|UPS\\b|PDU\\b)"
+  },
+  {
+    "category": "power",
+    "product": "Raritan power distribution unit",
+    "pattern": "\\bRaritan\\s+(?:PX[234]?[- ]\\d{3,5}[A-Z]*\\b|(?:intelligent |rack )?PDU\\b)"
+  },
+  {
+    "category": "sensor",
+    "product": "Aruba UXI sensor",
+    "pattern": "\\bAruba(?: Networking)?[- ](?:Sensor[- ](?:R3R67A|S0U52A)|(?:UXI|User Experience Insight)\\s+(?:G\\d\\w*\\s+)?sensor)\\b"
+  },
+  {
+    "category": "sensor",
+    "product": "AKCP environmental monitor",
+    "pattern": "\\bAKCP\\s+(?:sensorProbe|securityProbe)(?:\\d|\\b)"
+  },
+  {
+    "category": "sensor",
+    "product": "AVTECH Room Alert monitor",
+    "pattern": "\\b(?:AVTECH\\s+)?Room Alert\\s+(?:\\d{1,2}[ESW]?|MAX|PRO|Indoor Air Quality Monitor)\\b"
+  },
+  {
+    "category": "power",
+    "product": "Shelly energy meter",
+    "pattern": "\\bShelly\\s+Pro\\s+(?:3\\s?EM|EM-50)\\b"
+  },
+  {
+    "category": "iot",
+    "product": "Shelly fixed relay",
+    "pattern": "\\bShelly\\s+Pro\\s+4PM\\b"
+  },
+  {
+    "category": "storage",
+    "product": "QNAP NAS",
+    "pattern": "\\bQNAP\\s+(?:(?:QTS|QuTS hero|NAS)\\b|(?:TS|TVS|TBS)-[A-Z]?\\d{2,4}[A-Z0-9+-]*\\b)"
+  },
+  {
+    "category": "storage",
+    "product": "Synology NAS",
+    "pattern": "\\bSynology\\s+(?:(?:DiskStation(?: Manager)?|RackStation|FlashStation|DSM|NAS)\\b|(?:DS|RS|FS)\\d{2,4}[A-Z+]*\\b)"
+  }
+]

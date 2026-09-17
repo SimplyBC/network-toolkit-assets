@@ -1,0 +1,82 @@
+{
+  "id": "juniper_junos",
+  "label": "Juniper Junos (EX / QFX)",
+  "driver": "juniper_junos",
+  "sections": {
+    "identity": [
+      "show version | display xml",
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces media | display xml",
+      "show interfaces media"
+    ],
+    "lldp": [
+      "show lldp neighbors detail | display xml",
+      "show lldp neighbors detail",
+      "show lldp neighbors"
+    ],
+    "vlans": [
+      "show vlans detail | display xml",
+      "show vlans"
+    ],
+    "aggregation": [
+      "show lacp interfaces"
+    ],
+    "stack": [
+      "show virtual-chassis status"
+    ],
+    "fdb": [
+      "show ethernet-switching table"
+    ],
+    "arp": [
+      "show arp no-resolve"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "services": [
+      "show configuration | display set"
+    ],
+    "routes": [
+      "show route | display xml"
+    ],
+    "addressing": [
+      "show interfaces terse | display xml"
+    ],
+    "ospf": [
+      "show ospf neighbor",
+      "show ospf interface",
+      "show ospf3 neighbor detail",
+      "show ospf3 interface"
+    ],
+    "bgp": [
+      "show bgp summary"
+    ],
+    "health": [
+      "show interfaces extensive",
+      "show chassis alarms",
+      "show system alarms"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "lldp",
+    "vlans",
+    "aggregation",
+    "stack",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": [
+    "services",
+    "routes",
+    "addressing",
+    "ospf",
+    "bgp",
+    "health"
+  ]
+}

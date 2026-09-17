@@ -1,0 +1,68 @@
+{
+  "id": "paloalto_panos_ssh",
+  "label": "Palo Alto firewall \u00b7 SSH",
+  "driver": "paloalto_panos",
+  "sections": {
+    "identity": [
+      "show system info"
+    ],
+    "interfaces": [
+      "show interface all"
+    ],
+    "lldp": [
+      "show lldp neighbors all"
+    ],
+    "aggregation": [
+      "show lacp aggregate-ethernet all"
+    ],
+    "ha": [
+      "show high-availability state"
+    ],
+    "arp": [
+      "show arp all"
+    ],
+    "routes": [
+      "show routing route"
+    ],
+    "vpn": [
+      "show vpn flow"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "ospf": [
+      "show routing protocol ospf neighbor",
+      "show routing protocol ospf interface",
+      "show routing protocol ospf summary",
+      "show routing protocol ospf area"
+    ],
+    "bgp": [
+      "show routing protocol bgp summary"
+    ],
+    "services": [
+      "show config running",
+      "show ntp"
+    ],
+    "health": [
+      "show system environmentals"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "lldp",
+    "aggregation",
+    "ha",
+    "arp",
+    "routes",
+    "vpn"
+  ],
+  "documentationOrder": [
+    "ospf",
+    "bgp",
+    "services",
+    "health"
+  ]
+}

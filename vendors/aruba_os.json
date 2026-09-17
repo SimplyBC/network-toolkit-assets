@@ -1,0 +1,58 @@
+{
+  "id": "aruba_os",
+  "label": "Aruba mobility controller (ArubaOS)",
+  "driver": "aruba_os",
+  "sections": {
+    "identity": [
+      "show version"
+    ],
+    "hostname": [
+      "show hostname"
+    ],
+    "interfaces": [
+      "show port status",
+      "show interface"
+    ],
+    "interface_details": [
+      "show interface"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "lldp": [
+      "show lldp neighbor"
+    ],
+    "aggregation": [
+      "show lacp summary"
+    ],
+    "arp": [
+      "show arp"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "accessPoints": [
+      "show ap database long",
+      "show ap database"
+    ],
+    "services": [
+      "show running-config"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "hostname",
+    "interfaces",
+    "interface_details",
+    "vlans",
+    "lldp",
+    "aggregation",
+    "arp"
+  ],
+  "documentationOrder": [
+    "accessPoints",
+    "services"
+  ]
+}

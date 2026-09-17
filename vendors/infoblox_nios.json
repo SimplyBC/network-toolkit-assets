@@ -1,0 +1,38 @@
+{
+  "id": "infoblox_nios",
+  "label": "Infoblox NIOS \u00b7 SSH + Grid WAPI",
+  "driver": "",
+  "sections": {
+    "identity": [
+      "show version",
+      "show hardware-type",
+      "show status",
+      "show uptime"
+    ],
+    "interfaces": [
+      "show interface all",
+      "show interface"
+    ],
+    "arp": [
+      "show arp"
+    ],
+    "bgp": [
+      "show bgp summary"
+    ],
+    "ospf": [
+      "show ospf interface"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "arp",
+    "bgp",
+    "ospf"
+  ],
+  "documentationOrder": []
+}

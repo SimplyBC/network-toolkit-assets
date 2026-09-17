@@ -1,0 +1,91 @@
+{
+  "id": "hp_procurve",
+  "label": "ArubaOS-Switch / ProCurve",
+  "driver": "hp_procurve",
+  "sections": {
+    "identity": [
+      "show system information",
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces brief"
+    ],
+    "vlans": [
+      "show vlans"
+    ],
+    "lldp": [
+      "show lldp info remote-device detail"
+    ],
+    "fdb": [
+      "show mac-address"
+    ],
+    "arp": [
+      "show arp"
+    ],
+    "poe": [
+      "show power-over-ethernet brief"
+    ],
+    "transceivers": [
+      "show interfaces transceiver"
+    ]
+  },
+  "timeoutSeconds": 30,
+  "documentation": {
+    "addressing": [
+      "show ip",
+      "show ipv6"
+    ],
+    "ospf": [
+      "show ip ospf neighbor",
+      "show ip ospf interface",
+      "show ip ospf general"
+    ],
+    "bgp": [
+      "show ip bgp summary"
+    ],
+    "redundancy": [
+      "show vrrp"
+    ],
+    "spanningTree": [
+      "show spanning-tree"
+    ],
+    "policy": [
+      "show route-map"
+    ],
+    "services": [
+      "show running-config",
+      "show sntp"
+    ],
+    "health": [
+      "show interfaces all",
+      "show interfaces",
+      "show system power-supply"
+    ],
+    "routes": [
+      "show ip route"
+    ]
+  },
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "fdb",
+    "arp",
+    "poe",
+    "transceivers"
+  ],
+  "documentationOrder": [
+    "addressing",
+    "ospf",
+    "bgp",
+    "redundancy",
+    "spanningTree",
+    "policy",
+    "services",
+    "health",
+    "routes"
+  ]
+}

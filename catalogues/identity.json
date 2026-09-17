@@ -1,6 +1,461 @@
 [
   {
     "containsAll": [
+      "vrp",
+      "CE8850"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE6881"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE6866"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE6865"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE6857"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE12800"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE9800"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE8800"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE6800"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "CE5800"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S12700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S9700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S7700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S6730"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S6700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5736"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5735"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5732"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5731"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5730"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S5300"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S3700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "vrp",
+      "S2700"
+    ],
+    "deviceType": "switch",
+    "platform": "huawei_vrp"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "12900"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5950"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5945"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5940"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5930"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5900"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5710"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5700"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5520"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5510"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5140"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "5130"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S12500"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S10500"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S9500"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S7500"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S6850"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S6800"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S6520"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5850"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5820"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5800"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5560"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5510"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5500"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5130"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S5120"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S3600"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "comware",
+      "S3100"
+    ],
+    "deviceType": "switch",
+    "platform": "hp_comware"
+  },
+  {
+    "containsAll": [
+      "icx",
+      "sw: version"
+    ],
+    "deviceType": "switch",
+    "platform": "ruckus_fastiron"
+  },
+  {
+    "containsAll": [
+      "fastiron"
+    ],
+    "deviceType": "switch",
+    "platform": "ruckus_fastiron"
+  },
+  {
+    "containsAll": [
+      "arista",
+      "eos"
+    ],
+    "deviceType": "switch",
+    "platform": "arista_eos"
+  },
+  {
+    "containsAll": [
+      "arista",
+      "software image version"
+    ],
+    "deviceType": "switch",
+    "platform": "arista_eos"
+  },
+  {
+    "containsAll": [
       "omniswitch"
     ],
     "deviceType": "switch",

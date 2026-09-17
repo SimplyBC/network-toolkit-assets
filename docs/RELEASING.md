@@ -3,7 +3,7 @@
 The initial public release is 1.0.0, sequence 1. Pack versions are independent of desktop versions.
 
 1. Submit and review the data changes; ensure `Validate assets` passes.
-2. Increase **both** `version` and monotonically increasing `sequence` in `manifest.json`. Update CHANGELOG. Keep `engine: 1` and `schemaVersion: 1` unless shipping a corresponding desktop engine.
+2. Increase **both** `version` and monotonically increasing `sequence` in `manifest.json`. Update CHANGELOG. The pending 2.0.0 pack uses `engine: 2`, `schemaVersion: 1` and requires the corresponding desktop engine. Do not publish it as an engine-1 update.
 3. Merge into main. Run the manual **Publish signed support pack** workflow on main. It validates fixtures and public content again, checks the version against the current stable channel, signs with the repository secret `SUPPORT_PACK_SIGNING_KEY`, updates `channel/stable.json` and publishes a versioned GitHub release.
 4. In the updated app choose Settings → Device support → Check device support. Confirm the staged version, then close/reopen when existing work is complete. Test representative devices and inspect their command coverage.
 

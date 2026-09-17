@@ -1,0 +1,46 @@
+{
+  "arista_eos": {
+    "identity": "Arista DCS-7050SX3-48YC8\nHardware version: 12.01\nSerial number: SYNTHETIC-A\nSystem MAC address: 0200.0000.0010\nSoftware image version: 4.31.1F\n",
+    "interfaces": "Port Name Status Vlan Duplex Speed Type\nEt1 example-uplink connected trunk full 10G 10GBASE-SR\nEt2 unused notconnect 10 full 1G Not Present\n",
+    "vlans": "VLAN Name Status Ports\n10 example active Et1\n",
+    "lldp": "Interface Ethernet1 detected 1 LLDP neighbors:\n  Neighbor 0200.0000.0002/Ethernet2, age 2 seconds\n    Chassis ID : 0200.0000.0002\n    - Port ID type: Interface name\n      Port ID : \"Ethernet2\"\n    - System Name: \"example-peer\"\n    - System Description: \"Example switch\"\n      Management Address : 192.0.2.2\n",
+    "fdb": "Mac Address Table\nVlan Mac Address Type Ports Moves Last Move\n10 0200.0000.0002 DYNAMIC Et1 1 0:00:01 ago\n",
+    "arp": "Address Age (sec) Hardware Addr Interface\n192.0.2.2 1 0200.0000.0002 Vlan10\n",
+    "port": "Eth1",
+    "model": "DCS-7050SX3-48YC8",
+    "version": "4.31.1F"
+  },
+  "ruckus_fastiron": {
+    "identity": "Copyright (c) Ruckus Networks\n HW: Stackable ICX7150-48P\n SW: Version 08.0.95mT213\n Serial #:SYNTHETIC-B\n",
+    "interfaces": "Port Link State Dupl Speed Trunk Tag Pvid Pri MAC Name\n1/1/1 Up Forward Full 1G None Yes 10 0 0200.0000.0010 uplink\n1/1/2 Down None None None None No 10 0 0200.0000.0011 unused\n",
+    "vlans": "PORT-VLAN 10, Name example, Priority level0, On\n Tagged Ports: (U1/M1) 1\n Untagged Ports: (U1/M1) 2\n",
+    "lldp": "Local port: 1/1/1\n  Neighbor: 0200.0000.0002, TTL 120 seconds\n  + Chassis ID: 0200.0000.0002\n  + Port ID: 1/1/2\n  + System name : \"example-peer\"\n  + System description : Example switch\n  + Management address (IPv4): 192.0.2.2\n",
+    "fdb": "MAC-Address Port Type VLAN\n0200.0000.0002 1/1/1 Dynamic 10\n",
+    "arp": "No. IP Address MAC Address Type Age Port Status VLAN\n1 192.0.2.2 0200.0000.0002 Dynamic 0 1/1/1 Valid 10\n",
+    "port": "1/1/1",
+    "model": "Stackable ICX7150-48P",
+    "version": "08.0.95mT213"
+  },
+  "hp_comware": {
+    "identity": "HPE Comware Software, Version 7.1.070, Release 3506P11\nHPE 5900AF-48XG-4QSFP+ uptime is 10 days\n",
+    "interfaces": "Interface Link Speed Duplex Type PVID Description\nGE1/0/1 UP 1G(a) F(a) T 10 uplink\nGE1/0/2 DOWN auto A A 10 unused\n",
+    "vlans": "VLAN ID: 10\n Name: example\n Tagged ports:\n   GigabitEthernet1/0/1\n Untagged ports:\n   GigabitEthernet1/0/2\n",
+    "lldp": "LLDP neighbor-information of port 1[GigabitEthernet1/0/1]:\n LLDP neighbor index : 1\n Chassis ID : 0200-0000-0002\n Port ID : GigabitEthernet1/0/2\n System name : example-peer\n Management address : 192.0.2.2\n",
+    "fdb": "MAC ADDR VLAN ID STATE PORT INDEX AGING TIME(s)\n0200-0000-0002 10 Learned GE1/0/1 Y\n",
+    "arp": "IP ADDRESS MAC ADDRESS VLAN/VSI Interface Aging Type\n192.0.2.2 0200-0000-0002 10 GE1/0/1 10 D\n",
+    "port": "Gi1/0/1",
+    "model": "HPE 5900AF-48XG-4QSFP+",
+    "version": "7.1.070, Release 3506P11"
+  },
+  "huawei_vrp": {
+    "identity": "Huawei Versatile Routing Platform Software\nVRP (R) software, Version 5.170 (S5735 V200R022C00SPC500)\nHUAWEI S5735-L24T4X-A1 uptime is 10 days\n",
+    "interfaces": "Interface PHY Protocol InUti OutUti inErrors outErrors\nGE0/0/1 up up 0% 0% 0 0\nGE0/0/2 down down 0% 0% 0 0\n",
+    "vlans": "VID Status Property MAC-LRN Statistics Description\n10 enable default enable disable example\n",
+    "lldp": "GigabitEthernet0/0/1 has 1 neighbor(s):\nNeighbor index : 1\nChassis type : MAC address\nChassis ID : 0200-0000-0002\nPort ID type : Interface name\nPort ID : GigabitEthernet0/0/2\nSystem name : example-peer\nManagement address value : 192.0.2.2\n",
+    "fdb": "MAC Address VLAN/VSI/BD Learned-From Type\n0200-0000-0002 10/-/- GE0/0/1 dynamic\n",
+    "arp": "IP ADDRESS MAC ADDRESS EXPIRE(M) TYPE INTERFACE VPN-INSTANCE\n192.0.2.2 0200-0000-0002 10 D-0 GE0/0/1\n",
+    "port": "Gi0/0/1",
+    "model": "S5735-L24T4X-A1",
+    "version": "5.170 (S5735 V200R022C00SPC500)"
+  }
+}

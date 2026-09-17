@@ -16,7 +16,7 @@ from support_pack_schema import command, normalize, profile_for, validate
 class AssetsTest(unittest.TestCase):
     def test_all_vendor_definitions_and_recognition_examples(self):
         data = assemble()
-        self.assertEqual(len(data['profiles']), 11)
+        self.assertEqual(len(data['profiles']), 15)
         for name, row in data['profiles'].items():
             if name != 'paloalto_panos':
                 self.assertEqual(row['sectionOrder'][0], 'identity')

@@ -1,0 +1,38 @@
+{
+  "id": "arista_eos",
+  "label": "Arista EOS",
+  "driver": "arista_eos",
+  "sections": {
+    "identity": [
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces status"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "lldp": [
+      "show lldp neighbors detail"
+    ],
+    "fdb": [
+      "show mac address-table"
+    ],
+    "arp": [
+      "show ip arp"
+    ]
+  },
+  "timeoutSeconds": 45,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": []
+}

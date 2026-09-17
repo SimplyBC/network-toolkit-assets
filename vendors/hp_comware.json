@@ -1,0 +1,38 @@
+{
+  "id": "hp_comware",
+  "label": "HPE / H3C Comware switches",
+  "driver": "hp_comware",
+  "sections": {
+    "identity": [
+      "display version"
+    ],
+    "interfaces": [
+      "display interface brief"
+    ],
+    "vlans": [
+      "display vlan all"
+    ],
+    "lldp": [
+      "display lldp neighbor-information verbose"
+    ],
+    "fdb": [
+      "display mac-address"
+    ],
+    "arp": [
+      "display arp"
+    ]
+  },
+  "timeoutSeconds": 45,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": []
+}

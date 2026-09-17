@@ -15,7 +15,7 @@ from typing import Any
 
 import regex  # type: ignore[import-untyped]
 
-ENGINE = 1
+ENGINE = 2
 MAX_BYTES = 2 * 1024 * 1024
 DRIVERS = {
     "infoblox_nios": "",
@@ -30,6 +30,15 @@ DRIVERS = {
     "cisco_nxos": "cisco_nxos",
     "cisco_s300": "cisco_s300",
 }
+LEGACY_DRIVERS = dict(DRIVERS)
+DRIVERS.update(
+    {
+        "arista_eos": "arista_eos",
+        "ruckus_fastiron": "ruckus_fastiron",
+        "hp_comware": "hp_comware",
+        "huawei_vrp": "huawei",
+    }
+)
 KINDS = frozenset({"switch", "paloalto", "clearpass", "infoblox", "fortinac", "mobility"})
 SECTIONS = frozenset(
     {
@@ -97,8 +106,10 @@ def rows(value: Any, maximum: int) -> list[Any]:
 def command(value: Any) -> str:
     value = text(value, 160)
     # No substitution, CLI command separators, output files, remote transfers or privilege changes.
-    if not re.fullmatch(r"show [A-Za-z0-9][A-Za-z0-9 _./:-]*(?: \| display (?:xml|json|set))?", value):
-        raise ValueError("Only literal read-only show commands are supported.")
+    if not re.fullmatch(
+        r"(?:show|display) [A-Za-z0-9][A-Za-z0-9 _./:-]*(?: \| display (?:xml|json|set))?", value
+    ):
+        raise ValueError("Only literal read-only show/display commands are supported.")
     return value
 
 
@@ -200,7 +211,7 @@ def validate(data: Any) -> dict[str, Any]:
         type(data["schemaVersion"]) is not int
         or data["schemaVersion"] != 1
         or type(data["engine"]) is not int
-        or data["engine"] != ENGINE
+        or data["engine"] not in {1, ENGINE}
     ):
         raise ValueError("This support pack requires a different toolkit engine.")
     if type(data["sequence"]) is not int or not 1 <= data["sequence"] <= 2**31:
@@ -212,7 +223,9 @@ def validate(data: Any) -> dict[str, Any]:
         or not 0 < data["expiresAt"] - data["issuedAt"] <= 366 * 86400
     ):
         raise ValueError("Invalid pack validity period.")
-    if not isinstance(data["profiles"], dict) or set(data["profiles"]) != set(DRIVERS):
+    if not isinstance(data["profiles"], dict) or set(data["profiles"]) != set(
+        LEGACY_DRIVERS if data["engine"] == 1 else DRIVERS
+    ):
         raise ValueError("The pack must retain every built-in engine family.")
     for key, profile in data["profiles"].items():
         exact(
@@ -277,9 +290,9 @@ def validate(data: Any) -> dict[str, Any]:
     for row in rows(data["identity"], 256):
         exact(row, {"containsAll", "deviceType", "platform"})
         selectors(row["containsAll"])
-        if row["deviceType"] not in KINDS or row["platform"] not in {"", *DRIVERS}:
+        if row["deviceType"] not in KINDS or row["platform"] not in {"", *data["profiles"]}:
             raise ValueError("Unknown identity engine.")
-    for row in rows(data["infrastructureProducts"], 512):
+    for row in rows(data["infrastructureProducts"], 1024):
         exact(row, {"name", "kind", "deviceType", "pattern", "examples", "source"})
         for field in ("name", "kind", "source"):
             text(row[field], 256)

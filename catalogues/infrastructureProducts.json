@@ -1,5 +1,5656 @@
 [
   {
+    "name": "Check Point Security Management Server",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCheck\\s+Point\\s+Security[ -]+Management[ -]+Server(?![a-z0-9])",
+    "examples": [
+      "Check Point Security Management Server"
+    ],
+    "source": "https://sc1.checkpoint.com/documents/latest/"
+  },
+  {
+    "name": "Extreme ExtremeCloud IQ Site Engine",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+ExtremeCloud[ -]+IQ[ -]+Site[ -]+Engine(?![a-z0-9])",
+    "examples": [
+      "Extreme ExtremeCloud IQ Site Engine"
+    ],
+    "source": "https://www.extremenetworks.com/products/network-management/extremecloud-iq-site-engine"
+  },
+  {
+    "name": "Extreme ExtremeCloud IQ Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+ExtremeCloud[ -]+IQ[ -]+Controller(?![a-z0-9])",
+    "examples": [
+      "Extreme ExtremeCloud IQ Controller"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Cisco Secure Access Control System",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Secure[ -]+Access[ -]+Control[ -]+System(?![a-z0-9])",
+    "examples": [
+      "Cisco Secure Access Control System"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/networking/cloud-networking-management/index.html"
+  },
+  {
+    "name": "Cisco Virtual Wireless Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Virtual[ -]+Wireless[ -]+Controller(?![a-z0-9])",
+    "examples": [
+      "Cisco Virtual Wireless Controller"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "TP-Link Omada Software Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bTP-Link\\s+Omada[ -]+Software[ -]+Controller(?![a-z0-9])",
+    "examples": [
+      "TP-Link Omada Software Controller"
+    ],
+    "source": "https://www.tp-link.com/us/business-networking/omada-controller/"
+  },
+  {
+    "name": "VMware NSX Advanced Load Balancer",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+NSX[ -]+Advanced[ -]+Load[ -]+Balancer(?![a-z0-9])",
+    "examples": [
+      "VMware NSX Advanced Load Balancer"
+    ],
+    "source": "https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/avi-load-balancer.html"
+  },
+  {
+    "name": "Check Point Multi-Domain Server",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCheck\\s+Point\\s+Multi-Domain[ -]+Server(?![a-z0-9])",
+    "examples": [
+      "Check Point Multi-Domain Server"
+    ],
+    "source": "https://sc1.checkpoint.com/documents/latest/"
+  },
+  {
+    "name": "Cisco Wireless Controller 2504",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+2504(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 2504"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 3504",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+3504(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 3504"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 5508",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+5508(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 5508"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 5520",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+5520(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 5520"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 5760",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+5760(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 5760"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 7510",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+7510(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 7510"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 8510",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+8510(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 8510"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Wireless Controller 8540",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Wireless[ -]+Controller[ -]+8540(?![a-z0-9])",
+    "examples": [
+      "Cisco Wireless Controller 8540"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Prime Network Registrar",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Prime[ -]+Network[ -]+Registrar(?![a-z0-9])",
+    "examples": [
+      "Cisco Prime Network Registrar"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/networking/cloud-networking-management/index.html"
+  },
+  {
+    "name": "Pulse Secure Connect Secure",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bPulse\\s+Secure\\s+Connect[ -]+Secure(?![a-z0-9])",
+    "examples": [
+      "Pulse Secure Connect Secure"
+    ],
+    "source": "https://www.ivanti.com/products/connect-secure"
+  },
+  {
+    "name": "Opengear Operations Manager",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bOpengear\\s+Operations[ -]+Manager(?![a-z0-9])",
+    "examples": [
+      "Opengear Operations Manager"
+    ],
+    "source": "https://opengear.com/products/"
+  },
+  {
+    "name": "Cisco Prime Infrastructure",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Prime[ -]+Infrastructure(?![a-z0-9])",
+    "examples": [
+      "Cisco Prime Infrastructure"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/networking/cloud-networking-management/index.html"
+  },
+  {
+    "name": "Pulse Secure Policy Secure",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bPulse\\s+Secure\\s+Policy[ -]+Secure(?![a-z0-9])",
+    "examples": [
+      "Pulse Secure Policy Secure"
+    ],
+    "source": "https://www.ivanti.com/products/connect-secure"
+  },
+  {
+    "name": "Extreme Campus Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+Campus[ -]+Controller(?![a-z0-9])",
+    "examples": [
+      "Extreme Campus Controller"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Extreme IdentiFi Wireless",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+IdentiFi[ -]+Wireless(?![a-z0-9])",
+    "examples": [
+      "Extreme IdentiFi Wireless"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Aruba Central On-Premises",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bAruba\\s+Central[ -]+On-Premises(?![a-z0-9])",
+    "examples": [
+      "Aruba Central On-Premises"
+    ],
+    "source": "https://arubanetworking.hpe.com/techdocs/"
+  },
+  {
+    "name": "Extreme Management Center",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+Management[ -]+Center(?![a-z0-9])",
+    "examples": [
+      "Extreme Management Center"
+    ],
+    "source": "https://www.extremenetworks.com/products/network-management/extremecloud-iq-site-engine"
+  },
+  {
+    "name": "Ruckus Virtual SmartZone",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+Virtual[ -]+SmartZone(?![a-z0-9])",
+    "examples": [
+      "Ruckus Virtual SmartZone"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus ZoneDirector 1100",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+ZoneDirector[ -]+1100(?![a-z0-9])",
+    "examples": [
+      "Ruckus ZoneDirector 1100"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus ZoneDirector 1200",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+ZoneDirector[ -]+1200(?![a-z0-9])",
+    "examples": [
+      "Ruckus ZoneDirector 1200"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus ZoneDirector 3000",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+ZoneDirector[ -]+3000(?![a-z0-9])",
+    "examples": [
+      "Ruckus ZoneDirector 3000"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus ZoneDirector 5000",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+ZoneDirector[ -]+5000(?![a-z0-9])",
+    "examples": [
+      "Ruckus ZoneDirector 5000"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Huawei AirEngine 9700-M1",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AirEngine[ -]+9700-M1(?![a-z0-9])",
+    "examples": [
+      "Huawei AirEngine 9700-M1"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Huawei AirEngine 9700S-S",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AirEngine[ -]+9700S-S(?![a-z0-9])",
+    "examples": [
+      "Huawei AirEngine 9700S-S"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Extreme ExtremeAnalytics",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+ExtremeAnalytics(?![a-z0-9])",
+    "examples": [
+      "Extreme ExtremeAnalytics"
+    ],
+    "source": "https://www.extremenetworks.com/products/network-management/extremecloud-iq-site-engine"
+  },
+  {
+    "name": "EfficientIP DNS Guardian",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bEfficientIP\\s+DNS[ -]+Guardian(?![a-z0-9])",
+    "examples": [
+      "EfficientIP DNS Guardian"
+    ],
+    "source": "https://efficientip.com/products/solidserver-ddi/"
+  },
+  {
+    "name": "Progress Kemp LoadMaster",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bProgress\\s+Kemp[ -]+LoadMaster(?![a-z0-9])",
+    "examples": [
+      "Progress Kemp LoadMaster"
+    ],
+    "source": "https://kemptechnologies.com/load-balancer"
+  },
+  {
+    "name": "VMware Avi Load Balancer",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+Avi[ -]+Load[ -]+Balancer(?![a-z0-9])",
+    "examples": [
+      "VMware Avi Load Balancer"
+    ],
+    "source": "https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/avi-load-balancer.html"
+  },
+  {
+    "name": "Opengear Console Manager",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bOpengear\\s+Console[ -]+Manager(?![a-z0-9])",
+    "examples": [
+      "Opengear Console Manager"
+    ],
+    "source": "https://opengear.com/products/"
+  },
+  {
+    "name": "Cisco Catalyst CW9800H1",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+CW9800H1(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst CW9800H1"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Catalyst CW9800H2",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+CW9800H2(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst CW9800H2"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Fortinet FortiWLC-1000D",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWLC-1000D(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWLC-1000D"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Fortinet FortiWLC-3000D",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWLC-3000D(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWLC-3000D"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Huawei AirEngine 9700-M",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AirEngine[ -]+9700-M(?![a-z0-9])",
+    "examples": [
+      "Huawei AirEngine 9700-M"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Huawei AirEngine 9703-S",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AirEngine[ -]+9703-S(?![a-z0-9])",
+    "examples": [
+      "Huawei AirEngine 9703-S"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Huawei AirEngine 9703-H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AirEngine[ -]+9703-H(?![a-z0-9])",
+    "examples": [
+      "Huawei AirEngine 9703-H"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "BlueCat Address Manager",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Address[ -]+Manager(?![a-z0-9])",
+    "examples": [
+      "BlueCat Address Manager"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "BlueCat DNS/DHCP Server",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+DNS/DHCP[ -]+Server(?![a-z0-9])",
+    "examples": [
+      "BlueCat DNS/DHCP Server"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "Cisco Catalyst 9800-CL",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+9800-CL(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst 9800-CL"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Catalyst 9800-40",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+9800-40(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst 9800-40"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Catalyst 9800-80",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+9800-80(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst 9800-80"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Catalyst CW9800L",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+CW9800L(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst CW9800L"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Cisco Catalyst CW9800M",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+CW9800M(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst CW9800M"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Fortinet FortiWLC-200D",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWLC-200D(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWLC-200D"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Fortinet FortiWLC-500D",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWLC-500D(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWLC-500D"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Extreme ExtremeControl",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+ExtremeControl(?![a-z0-9])",
+    "examples": [
+      "Extreme ExtremeControl"
+    ],
+    "source": "https://www.extremenetworks.com/products/network-management/extremecloud-iq-site-engine"
+  },
+  {
+    "name": "Cisco Catalyst 9800-L",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+9800-L(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst 9800-L"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html"
+  },
+  {
+    "name": "Fortinet FortiWLC-50D",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWLC-50D(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWLC-50D"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Cisco Catalyst Center",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+Catalyst[ -]+Center(?![a-z0-9])",
+    "examples": [
+      "Cisco Catalyst Center"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/networking/cloud-networking-management/index.html"
+  },
+  {
+    "name": "Ivanti Connect Secure",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bIvanti\\s+Connect[ -]+Secure(?![a-z0-9])",
+    "examples": [
+      "Ivanti Connect Secure"
+    ],
+    "source": "https://www.ivanti.com/products/connect-secure"
+  },
+  {
+    "name": "Ruckus SmartZone 100",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+SmartZone[ -]+100(?![a-z0-9])",
+    "examples": [
+      "Ruckus SmartZone 100"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus SmartZone 144",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+SmartZone[ -]+144(?![a-z0-9])",
+    "examples": [
+      "Ruckus SmartZone 144"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Ruckus SmartZone 300",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bRuckus\\s+SmartZone[ -]+300(?![a-z0-9])",
+    "examples": [
+      "Ruckus SmartZone 300"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "Fortinet FWC-VM-1000",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FWC-VM-1000(?![a-z0-9])",
+    "examples": [
+      "Fortinet FWC-VM-1000"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Fortinet FWC-VM-3000",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FWC-VM-3000(?![a-z0-9])",
+    "examples": [
+      "Fortinet FWC-VM-3000"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Forescout CounterACT",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bForescout\\s+CounterACT(?![a-z0-9])",
+    "examples": [
+      "Forescout CounterACT"
+    ],
+    "source": "https://www.forescout.com/products/"
+  },
+  {
+    "name": "Forescout eyeControl",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bForescout\\s+eyeControl(?![a-z0-9])",
+    "examples": [
+      "Forescout eyeControl"
+    ],
+    "source": "https://www.forescout.com/products/"
+  },
+  {
+    "name": "Ivanti Policy Secure",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bIvanti\\s+Policy[ -]+Secure(?![a-z0-9])",
+    "examples": [
+      "Ivanti Policy Secure"
+    ],
+    "source": "https://www.ivanti.com/products/connect-secure"
+  },
+  {
+    "name": "Fortinet FWC-VM-200",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FWC-VM-200(?![a-z0-9])",
+    "examples": [
+      "Fortinet FWC-VM-200"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Fortinet FWC-VM-500",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FWC-VM-500(?![a-z0-9])",
+    "examples": [
+      "Fortinet FWC-VM-500"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "TP-Link Omada OC200",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bTP-Link\\s+Omada[ -]+OC200(?![a-z0-9])",
+    "examples": [
+      "TP-Link Omada OC200"
+    ],
+    "source": "https://www.tp-link.com/us/business-networking/omada-controller/"
+  },
+  {
+    "name": "TP-Link Omada OC300",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bTP-Link\\s+Omada[ -]+OC300(?![a-z0-9])",
+    "examples": [
+      "TP-Link Omada OC300"
+    ],
+    "source": "https://www.tp-link.com/us/business-networking/omada-controller/"
+  },
+  {
+    "name": "Opengear Lighthouse",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bOpengear\\s+Lighthouse(?![a-z0-9])",
+    "examples": [
+      "Opengear Lighthouse"
+    ],
+    "source": "https://opengear.com/products/"
+  },
+  {
+    "name": "Lantronix LM-Series",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bLantronix\\s+LM-Series(?![a-z0-9])",
+    "examples": [
+      "Lantronix LM-Series"
+    ],
+    "source": "https://www.lantronix.com/products-class/console-servers/"
+  },
+  {
+    "name": "Fortinet FWC-VM-50",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FWC-VM-50(?![a-z0-9])",
+    "examples": [
+      "Fortinet FWC-VM-50"
+    ],
+    "source": "https://docs.fortinet.com/document/wireless-controller/8.5.4/fortiwlc-release-notes/252571/supported-hardware-and-software"
+  },
+  {
+    "name": "Fortinet FortiDDoS",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiDDoS(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiDDoS"
+    ],
+    "source": "https://docs.fortinet.com/"
+  },
+  {
+    "name": "Fortinet FortiMail",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiMail(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiMail"
+    ],
+    "source": "https://docs.fortinet.com/"
+  },
+  {
+    "name": "Forescout eyeSight",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bForescout\\s+eyeSight(?![a-z0-9])",
+    "examples": [
+      "Forescout eyeSight"
+    ],
+    "source": "https://www.forescout.com/products/"
+  },
+  {
+    "name": "Radware DefensePro",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bRadware\\s+DefensePro(?![a-z0-9])",
+    "examples": [
+      "Radware DefensePro"
+    ],
+    "source": "https://www.radware.com/products/alteon/"
+  },
+  {
+    "name": "VMware NSX Manager",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+NSX[ -]+Manager(?![a-z0-9])",
+    "examples": [
+      "VMware NSX Manager"
+    ],
+    "source": "https://techdocs.broadcom.com/us/en/vmware-cis/nsx.html"
+  },
+  {
+    "name": "Lantronix SLC 8000",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bLantronix\\s+SLC[ -]+8000(?![a-z0-9])",
+    "examples": [
+      "Lantronix SLC 8000"
+    ],
+    "source": "https://www.lantronix.com/products-class/console-servers/"
+  },
+  {
+    "name": "Vertiv Avocent ACS",
+    "kind": "Console server",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\s+Avocent[ -]+ACS(?![a-z0-9])",
+    "examples": [
+      "Vertiv Avocent ACS"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/monitoring-control-and-management/serial-consoles-and-gateways/"
+  },
+  {
+    "name": "Fortinet FortiADC",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiADC(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiADC"
+    ],
+    "source": "https://docs.fortinet.com/"
+  },
+  {
+    "name": "Fortinet FortiWeb",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortinet\\s+FortiWeb(?![a-z0-9])",
+    "examples": [
+      "Fortinet FortiWeb"
+    ],
+    "source": "https://docs.fortinet.com/"
+  },
+  {
+    "name": "BlueCat Integrity",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Integrity(?![a-z0-9])",
+    "examples": [
+      "BlueCat Integrity"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "Cisco DNA Center",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+DNA[ -]+Center(?![a-z0-9])",
+    "examples": [
+      "Cisco DNA Center"
+    ],
+    "source": "https://www.cisco.com/site/us/en/products/networking/cloud-networking-management/index.html"
+  },
+  {
+    "name": "Men&Mice Micetro",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bMen&Mice\\s+Micetro(?![a-z0-9])",
+    "examples": [
+      "Men&Mice Micetro"
+    ],
+    "source": "https://bluecatnetworks.com/products/micetro/"
+  },
+  {
+    "name": "Citrix NetScaler",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bCitrix\\s+NetScaler(?![a-z0-9])",
+    "examples": [
+      "Citrix NetScaler"
+    ],
+    "source": "https://docs.netscaler.com/"
+  },
+  {
+    "name": "BlueCat Gateway",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Gateway(?![a-z0-9])",
+    "examples": [
+      "BlueCat Gateway"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "BlueCat Proteus",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Proteus(?![a-z0-9])",
+    "examples": [
+      "BlueCat Proteus"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "BlueCat Micetro",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Micetro(?![a-z0-9])",
+    "examples": [
+      "BlueCat Micetro"
+    ],
+    "source": "https://bluecatnetworks.com/products/micetro/"
+  },
+  {
+    "name": "A10 Thunder ADC",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bA10\\s+Thunder[ -]+ADC(?![a-z0-9])",
+    "examples": [
+      "A10 Thunder ADC"
+    ],
+    "source": "https://www.a10networks.com/products/thunder-adc/"
+  },
+  {
+    "name": "A10 Thunder TPS",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bA10\\s+Thunder[ -]+TPS(?![a-z0-9])",
+    "examples": [
+      "A10 Thunder TPS"
+    ],
+    "source": "https://www.a10networks.com/products/thunder-adc/"
+  },
+  {
+    "name": "Kemp LoadMaster",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bKemp\\s+LoadMaster(?![a-z0-9])",
+    "examples": [
+      "Kemp LoadMaster"
+    ],
+    "source": "https://kemptechnologies.com/load-balancer"
+  },
+  {
+    "name": "VMware NSX Edge",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bVMware\\s+NSX[ -]+Edge(?![a-z0-9])",
+    "examples": [
+      "VMware NSX Edge"
+    ],
+    "source": "https://techdocs.broadcom.com/us/en/vmware-cis/nsx.html"
+  },
+  {
+    "name": "Extreme VX9000",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+VX9000(?![a-z0-9])",
+    "examples": [
+      "Extreme VX9000"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Extreme NX5500",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+NX5500(?![a-z0-9])",
+    "examples": [
+      "Extreme NX5500"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Extreme NX7500",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+NX7500(?![a-z0-9])",
+    "examples": [
+      "Extreme NX7500"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Extreme NX9500",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtreme\\s+NX9500(?![a-z0-9])",
+    "examples": [
+      "Extreme NX9500"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Huawei AC6507S",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AC6507S(?![a-z0-9])",
+    "examples": [
+      "Huawei AC6507S"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Huawei AC6800V",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AC6800V(?![a-z0-9])",
+    "examples": [
+      "Huawei AC6800V"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Cisco SNS-3715",
+    "kind": "Network access control appliance",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+SNS-3715(?![a-z0-9])",
+    "examples": [
+      "Cisco SNS-3715"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/collateral/security/identity-services-engine/secure-network-server-3700-series-ds.html"
+  },
+  {
+    "name": "Cisco SNS-3755",
+    "kind": "Network access control appliance",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+SNS-3755(?![a-z0-9])",
+    "examples": [
+      "Cisco SNS-3755"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/collateral/security/identity-services-engine/secure-network-server-3700-series-ds.html"
+  },
+  {
+    "name": "Cisco SNS-3795",
+    "kind": "Network access control appliance",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+SNS-3795(?![a-z0-9])",
+    "examples": [
+      "Cisco SNS-3795"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/collateral/security/identity-services-engine/secure-network-server-3700-series-ds.html"
+  },
+  {
+    "name": "BlueCat Adonis",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\bBlueCat\\s+Adonis(?![a-z0-9])",
+    "examples": [
+      "BlueCat Adonis"
+    ],
+    "source": "https://bluecatnetworks.com/products/integrity/"
+  },
+  {
+    "name": "Radware Alteon",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bRadware\\s+Alteon(?![a-z0-9])",
+    "examples": [
+      "Radware Alteon"
+    ],
+    "source": "https://www.radware.com/products/alteon/"
+  },
+  {
+    "name": "Huawei AC6508",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AC6508(?![a-z0-9])",
+    "examples": [
+      "Huawei AC6508"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "Huawei AC6805",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bHuawei\\s+AC6805(?![a-z0-9])",
+    "examples": [
+      "Huawei AC6805"
+    ],
+    "source": "https://e.huawei.com/au/products/wlan"
+  },
+  {
+    "name": "A10 vThunder",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bA10\\s+vThunder(?![a-z0-9])",
+    "examples": [
+      "A10 vThunder"
+    ],
+    "source": "https://www.a10networks.com/products/thunder-adc/"
+  },
+  {
+    "name": "H3C WX1804H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX1804H(?![a-z0-9])",
+    "examples": [
+      "H3C WX1804H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX2508H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX2508H(?![a-z0-9])",
+    "examples": [
+      "H3C WX2508H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX2510H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX2510H(?![a-z0-9])",
+    "examples": [
+      "H3C WX2510H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX2540H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX2540H(?![a-z0-9])",
+    "examples": [
+      "H3C WX2540H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX2560H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX2560H(?![a-z0-9])",
+    "examples": [
+      "H3C WX2560H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX5540H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX5540H(?![a-z0-9])",
+    "examples": [
+      "H3C WX5540H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX5560H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX5560H(?![a-z0-9])",
+    "examples": [
+      "H3C WX5560H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "H3C WX5580H",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bH3C\\s+WX5580H(?![a-z0-9])",
+    "examples": [
+      "H3C WX5580H"
+    ],
+    "source": "https://www.h3c.com/en/Support/Resource_Center/EN/Home/Wireless/00-Public/Configure___Deploy/Configuration_Guides/H3C_Access_Controllers_CG(R5456)/00/"
+  },
+  {
+    "name": "F5 rSeries",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bF5\\s+rSeries(?![a-z0-9])",
+    "examples": [
+      "F5 rSeries"
+    ],
+    "source": "https://www.f5.com/products/big-ip"
+  },
+  {
+    "name": "Citrix ADC",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bCitrix\\s+ADC(?![a-z0-9])",
+    "examples": [
+      "Citrix ADC"
+    ],
+    "source": "https://docs.netscaler.com/"
+  },
+  {
+    "name": "F5 BIG-IP",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bF5\\s+BIG-IP(?![a-z0-9])",
+    "examples": [
+      "F5 BIG-IP"
+    ],
+    "source": "https://www.f5.com/products/big-ip"
+  },
+  {
+    "name": "F5 BIG-IQ",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bF5\\s+BIG-IQ(?![a-z0-9])",
+    "examples": [
+      "F5 BIG-IQ"
+    ],
+    "source": "https://www.f5.com/products/big-ip"
+  },
+  {
+    "name": "F5 VELOS",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bF5\\s+VELOS(?![a-z0-9])",
+    "examples": [
+      "F5 VELOS"
+    ],
+    "source": "https://www.f5.com/products/big-ip"
+  },
+  {
+    "name": "Cisco ISE",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+(?:Identity\\s+Services\\s+Engine|ISE)\\b",
+    "examples": [
+      "Cisco Identity Services Engine",
+      "Cisco ISE"
+    ],
+    "source": "https://www.cisco.com/c/en/us/support/security/identity-services-engine/series.html"
+  },
+  {
+    "name": "Cisco AireOS / Catalyst wireless controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\s+(?:AireOS|Wireless(?:\\s+LAN)?\\s+Controller|Catalyst\\s+(?:CW)?9800[\\w-]*|(?:IOS[^\\r\\n]{0,100})?C9800(?:_IOSXE|-CL|-L|-40|-80)?\\b)",
+    "examples": [
+      "Cisco AireOS",
+      "Cisco Wireless Controller",
+      "Cisco IOS Software C9800 Software"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html"
+  },
+  {
+    "name": "Ruckus SmartZone / ZoneDirector",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\b(?:Ruckus(?:\\s+Wireless)?\\s+)?(?:SmartZone|ZoneDirector|vSZ)[\\w-]*\\b",
+    "examples": [
+      "Ruckus SmartZone",
+      "ZoneDirector",
+      "vSZ"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/network-control-and-management/network-controllers/"
+  },
+  {
+    "name": "ExtremeCloud IQ Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bExtremeCloud\\s+IQ\\s+Controller\\b",
+    "examples": [
+      "ExtremeCloud IQ Controller"
+    ],
+    "source": "https://www.extremenetworks.com/products/wi-fi-management/extremecloud-iq-controller/extremecloud-iq-controller"
+  },
+  {
+    "name": "Fortinet FortiWLC",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\bFortiWLC(?:-[\\w-]+)?\\b",
+    "examples": [
+      "FortiWLC",
+      "FortiWLC-200D"
+    ],
+    "source": "https://docs.fortinet.com/product/wireless-controller"
+  },
+  {
+    "name": "Ubiquiti UniFi Network Application",
+    "kind": "Wireless / network management",
+    "deviceType": "server",
+    "pattern": "\\b(?:Ubiquiti\\s+)?UniFi\\s+(?:Network(?:\\s+(?:Application|Controller))?|Controller)\\b",
+    "examples": [
+      "UniFi Network Application",
+      "UniFi Controller"
+    ],
+    "source": "https://help.ui.com/hc/en-us/categories/6583256751383-UniFi-Network"
+  },
+  {
+    "name": "TP-Link Omada Controller",
+    "kind": "Wireless controller",
+    "deviceType": "server",
+    "pattern": "\\b(?:TP-Link\\s+)?Omada\\s+(?:(?:Software|Hardware|SDN)\\s+)?Controller\\b",
+    "examples": [
+      "Omada Software Controller",
+      "TP-Link Omada Controller"
+    ],
+    "source": "https://www.tp-link.com/us/business-networking/omada-controller/"
+  },
+  {
+    "name": "Aruba AirWave",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\b(?:Aruba\\s+)?AirWave(?:\\s+Management\\s+Platform)?\\b",
+    "examples": [
+      "Aruba AirWave",
+      "AirWave Management Platform"
+    ],
+    "source": "https://arubanetworking.hpe.com/techdocs/AirWave/"
+  },
+  {
+    "name": "EfficientIP SOLIDserver",
+    "kind": "DNS / DHCP / IPAM",
+    "deviceType": "server",
+    "pattern": "\\b(?:EfficientIP\\s+)?SOLIDserver\\b",
+    "examples": [
+      "EfficientIP SOLIDserver",
+      "SOLIDserver"
+    ],
+    "source": "https://efficientip.com/products/solidserver-ddi/"
+  },
+  {
+    "name": "PacketFence",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bPacketFence\\b",
+    "examples": [
+      "PacketFence"
+    ],
+    "source": "https://www.packetfence.org/"
+  },
+  {
+    "name": "Portnox CORE",
+    "kind": "Network access control",
+    "deviceType": "server",
+    "pattern": "\\bPortnox\\s+CORE\\b",
+    "examples": [
+      "Portnox CORE"
+    ],
+    "source": "https://docs.portnox.com/"
+  },
+  {
+    "name": "Fortinet FortiAuthenticator",
+    "kind": "Authentication service",
+    "deviceType": "server",
+    "pattern": "\\bFortiAuthenticator\\b",
+    "examples": [
+      "FortiAuthenticator"
+    ],
+    "source": "https://www.fortinet.com/products/identity-access-management/fortiauthenticator"
+  },
+  {
+    "name": "Fortinet FortiManager",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortiManager\\b",
+    "examples": [
+      "FortiManager"
+    ],
+    "source": "https://docs.fortinet.com/product/fortimanager"
+  },
+  {
+    "name": "Fortinet FortiAnalyzer",
+    "kind": "Network management",
+    "deviceType": "server",
+    "pattern": "\\bFortiAnalyzer\\b",
+    "examples": [
+      "FortiAnalyzer"
+    ],
+    "source": "https://docs.fortinet.com/product/fortianalyzer"
+  },
+  {
+    "name": "NetScaler ADC",
+    "kind": "Load balancer",
+    "deviceType": "server",
+    "pattern": "\\bNetScaler\\s+(?:ADC|Gateway|VPX|MPX|SDX)\\b",
+    "examples": [
+      "NetScaler ADC",
+      "NetScaler VPX"
+    ],
+    "source": "https://docs.netscaler.com/"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6570M",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6570M(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6570M"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6250",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6250"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6350",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6350(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6350"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6360",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6360(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6360"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6450",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6450"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6465",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6465(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6465"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6560",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6560(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6560"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6850"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6855",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6855(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6855"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6860",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6860(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6860"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6865",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6865(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6865"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6870",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6870(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6870"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 6900",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?6900(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 6900"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Alcatel-Lucent Enterprise OmniSwitch 9900",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Alcatel[- ]Lucent(?: Enterprise)?|ALE)\\b[^\\r\\n]{0,100}\\bOmniSwitch[ -]?9900(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Alcatel-Lucent Enterprise OmniSwitch 9900"
+    ],
+    "source": "https://www.al-enterprise.com/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis SwitchBlade x8100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bSwitchBlade[ -]?x8100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis SwitchBlade x8100"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis SwitchBlade x908",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bSwitchBlade[ -]?x908(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis SwitchBlade x908"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Palo Alto Networks VM-Series",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bVM-Series(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks VM-Series"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "APC Network Management Card",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bAPC\\b[^\\r\\n]{0,100}\\bNetwork[ -]?Management[ -]?Card(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "APC Network Management Card"
+    ],
+    "source": "https://www.se.com/us/en/work/products/product-launch/local/apc/"
+  },
+  {
+    "name": "Palo Alto Networks PA-1410",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-1410(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-1410"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-1420",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-1420(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-1420"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3220",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3220(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3220"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3250",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3250"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3260",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3260(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3260"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3410",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3410(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3410"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3420",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3420(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3420"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3430",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3430(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3430"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-3440",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-3440(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-3440"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5220",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5220(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5220"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5250",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5250"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5260",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5260(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5260"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5280",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5280(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5280"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5410",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5410(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5410"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5420",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5420(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5420"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5430",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5430(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5430"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5440",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5440(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5440"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-5450",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-5450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-5450"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-7050",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-7050(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-7050"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-7080",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-7080(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-7080"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Eaton Intelligent Rack PDU",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\bIntelligent[ -]?Rack[ -]?PDU(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton Intelligent Rack PDU"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "Fortinet FortiSwitch 1024",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?1024(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 1024"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 1048",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?1048(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 1048"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 3032",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?3032(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 3032"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Palo Alto Networks PA-220",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-220(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-220"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-410",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-410(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-410"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-415",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-415(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-415"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-440",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-440(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-440"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-445",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-445(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-445"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-450",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-450"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-460",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-460(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-460"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-820",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-820(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-820"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Palo Alto Networks PA-850",
+    "kind": "Firewall",
+    "deviceType": "firewall",
+    "pattern": "\\bPalo Alto(?: Networks)?\\b[^\\r\\n]{0,100}\\bPA-850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Palo Alto Networks PA-850"
+    ],
+    "source": "https://www.paloaltonetworks.com/network-security/next-generation-firewall"
+  },
+  {
+    "name": "Huawei CloudEngine 12800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bCloudEngine[ -]?12800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei CloudEngine 12800"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 108",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?108(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 108"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 124",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?124(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 124"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 148",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?148(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 148"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 224",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?224(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 224"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 248",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?248(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 248"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 424",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?424(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 424"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 448",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?448(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 448"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 524",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?524(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 524"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Fortinet FortiSwitch 548",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bFortinet\\b[^\\r\\n]{0,100}\\bFortiSwitch[ -]?548(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Fortinet FortiSwitch 548"
+    ],
+    "source": "https://www.fortinet.com/products/ethernet-switches"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR250",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR250"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR530",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR530(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR530"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR550",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR550(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR550"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR630",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR630(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR630"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR650",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR650"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR665",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR665(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR665"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR670",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR670(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR670"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR850",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR850"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Lenovo ThinkSystem SR950",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bLenovo\\b[^\\r\\n]{0,100}\\bThinkSystem[ -]?SR950(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Lenovo ThinkSystem SR950"
+    ],
+    "source": "https://www.lenovo.com/us/en/servers-storage/servers/"
+  },
+  {
+    "name": "Huawei CloudEngine 5800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bCloudEngine[ -]?5800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei CloudEngine 5800"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei CloudEngine 6800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bCloudEngine[ -]?6800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei CloudEngine 6800"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei CloudEngine 8800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bCloudEngine[ -]?8800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei CloudEngine 8800"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei CloudEngine 9800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bCloudEngine[ -]?9800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei CloudEngine 9800"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "APC NetShelter Rack PDU",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bAPC\\b[^\\r\\n]{0,100}\\bNetShelter[ -]?Rack[ -]?PDU(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "APC NetShelter Rack PDU"
+    ],
+    "source": "https://www.se.com/us/en/work/products/product-launch/local/apc/"
+  },
+  {
+    "name": "Cisco Catalyst 2960-XR",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?2960-XR(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 2960-XR"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Extreme Switching 5320",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?5320(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 5320"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Switching 5420",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?5420(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 5420"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Switching 5520",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?5520(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 5520"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Switching 5720",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?5720(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 5720"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Switching 7520",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?7520(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 7520"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Switching 7720",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSwitching[ -]?7720(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Switching 7720"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Dell PowerConnect 5500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerConnect[ -]?5500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerConnect 5500"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerConnect 6200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerConnect[ -]?6200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerConnect 6200"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerConnect 7000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerConnect[ -]?7000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerConnect 7000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerConnect 8100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerConnect[ -]?8100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerConnect 8100"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch N2200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?N2200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch N2200"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch N3200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?N3200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch N3200"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S3048",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S3048(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S3048"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S4048",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S4048(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S4048"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S4128",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S4128(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S4128"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S4148",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S4148(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S4148"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S5212",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S5212(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S5212"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S5224",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S5224(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S5224"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S5232",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S5232(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S5232"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S5248",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S5248(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S5248"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S5296",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S5296(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S5296"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S6000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S6000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S6000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch S6100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?S6100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch S6100"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch Z9100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?Z9100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch Z9100"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch Z9264",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?Z9264(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch Z9264"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell PowerSwitch Z9432",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerSwitch[ -]?Z9432(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerSwitch Z9432"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Cisco Catalyst 2960-X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?2960-X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 2960-X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3560-X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3560-X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3560-X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3750-X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3750-X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3750-X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 4500-X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?4500-X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 4500-X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Aruba Instant On 1930",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bInstant[ -]?On[ -]?1930(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba Instant On 1930"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba Instant On 1960",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bInstant[ -]?On[ -]?1960(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba Instant On 1960"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Dell Networking N1500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bNetworking[ -]?N1500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell Networking N1500"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell Networking N2000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bNetworking[ -]?N2000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell Networking N2000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell Networking N3000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bNetworking[ -]?N3000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell Networking N3000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Dell Networking N4000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bNetworking[ -]?N4000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell Networking N4000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/networking/index.htm"
+  },
+  {
+    "name": "Synology FlashStation",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bFlashStation(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology FlashStation"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Vertiv Geist Rack PDU",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\b[^\\r\\n]{0,100}\\bGeist[ -]?Rack[ -]?PDU(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Vertiv Geist Rack PDU"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/"
+  },
+  {
+    "name": "Cisco Catalyst 9200L",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9200L(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9200L"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9300L",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9300L(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9300L"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9300X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9300X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9300X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9500X",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9500X(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9500X"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "HPE FlexNetwork 5130",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexNetwork[ -]?5130(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexNetwork 5130"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexNetwork 5140",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexNetwork[ -]?5140(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexNetwork 5140"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexNetwork 5510",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexNetwork[ -]?5510(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexNetwork 5510"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexNetwork 5520",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexNetwork[ -]?5520(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexNetwork 5520"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexNetwork 7500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexNetwork[ -]?7500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexNetwork 7500"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 12900",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?12900(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 12900"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "Dell PowerStore 1000",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerStore[ -]?1000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerStore 1000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerStore 1200",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerStore[ -]?1200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerStore 1200"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerStore 3000",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerStore[ -]?3000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerStore 3000"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerStore 3200",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerStore[ -]?3200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerStore 3200"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Synology DiskStation",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bDiskStation(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology DiskStation"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Synology RackStation",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bRackStation(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology RackStation"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Cisco Catalyst 2960",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?2960(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 2960"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3560",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3560(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3560"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3650",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3650"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3750",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3750(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3750"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 3850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?3850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 3850"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 4500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?4500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 4500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 6500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?6500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 6500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 6800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?6800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 6800"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9200"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9300"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9400"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Catalyst 9600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCatalyst[ -]?9600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Catalyst 9600"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Extreme Summit X250",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X250"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X440",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X440(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X440"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X450",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X450"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X460",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X460(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X460"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X465",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X465(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X465"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X480",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X480(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X480"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X620",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X620(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X620"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X670",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X670(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X670"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X690",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X690(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X690"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme Summit X695",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bSummit[ -]?X695(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme Summit X695"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "HPE FlexFabric 5700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5700"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5710",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5710(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5710"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5900",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5900(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5900"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5930",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5930(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5930"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5940",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5940(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5940"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5945",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5945(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5945"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "HPE FlexFabric 5950",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bFlexFabric[ -]?5950(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE FlexFabric 5950"
+    ],
+    "source": "https://www.hpe.com/us/en/networking.html"
+  },
+  {
+    "name": "Allied Telesis x230",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx230(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x230"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x330",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx330(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x330"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x510",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx510(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x510"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x530",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx530(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x530"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x550",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx550(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x550"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x600"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x610",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx610(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x610"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x930",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx930(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x930"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Allied Telesis x950",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAllied[ -]Telesis\\b[^\\r\\n]{0,100}\\bx950(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Allied Telesis x950"
+    ],
+    "source": "https://www.alliedtelesis.com/us/en/products/switches"
+  },
+  {
+    "name": "Dell PowerEdge R240",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R240(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R240"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R250",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R250"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R350",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R350(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R350"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R440",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R440(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R440"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R450",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R450"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R540",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R540(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R540"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R550",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R550(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R550"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R630",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R630(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R630"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R640",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R640(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R640"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R650",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R650"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R660",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R660(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R660"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R730",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R730(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R730"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R740",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R740(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R740"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R750",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R750(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R750"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R760",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R760(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R760"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R940",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R940(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R940"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerEdge R950",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerEdge[ -]?R950(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerEdge R950"
+    ],
+    "source": "https://www.dell.com/en-us/shop/servers-storage-and-networking/sf/poweredge"
+  },
+  {
+    "name": "Dell PowerVault ME4",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerVault[ -]?ME4(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerVault ME4"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerVault ME5",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerVault[ -]?ME5(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerVault ME5"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerVault MD3",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerVault[ -]?MD3(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerVault MD3"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Dell PowerStore 500",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerStore[ -]?500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerStore 500"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Vertiv Liebert GXT5",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\b[^\\r\\n]{0,100}\\bLiebert[ -]?GXT5(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Vertiv Liebert GXT5"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/"
+  },
+  {
+    "name": "HPE ProLiant DL160",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL160(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL160"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL180",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL180(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL180"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL325",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL325(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL325"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL345",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL345(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL345"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL360",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL360(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL360"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL380",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL380(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL380"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL385",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL385(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL385"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL560",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL560(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL560"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL580",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL580(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL580"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE Nimble Storage",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bNimble[ -]?Storage(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE Nimble Storage"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE 3PAR StoreServ",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\b3PAR[ -]?StoreServ(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE 3PAR StoreServ"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "Dell EqualLogic PS",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bEqualLogic[ -]?PS(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell EqualLogic PS"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "Vertiv Liebert EXS",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\b[^\\r\\n]{0,100}\\bLiebert[ -]?EXS(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Vertiv Liebert EXS"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/"
+  },
+  {
+    "name": "Vertiv Liebert EXM",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\b[^\\r\\n]{0,100}\\bLiebert[ -]?EXM(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Vertiv Liebert EXM"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/"
+  },
+  {
+    "name": "Vertiv Liebert EXL",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bVertiv\\b[^\\r\\n]{0,100}\\bLiebert[ -]?EXL(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Vertiv Liebert EXL"
+    ],
+    "source": "https://www.vertiv.com/en-us/products-catalog/"
+  },
+  {
+    "name": "HPE ProLiant DL20",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL20(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL20"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL60",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL60(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL60"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "HPE ProLiant DL80",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bProLiant[ -]?DL80(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE ProLiant DL80"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "Cisco Nexus 3000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?3000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 3000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 3100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?3100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 3100"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 3500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?3500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 3500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 5000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?5000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 5000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 5500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?5500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 5500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 5600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?5600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 5600"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 6000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?6000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 6000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 7000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?7000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 7000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 7700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?7700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 7700"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 9000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?9000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 9000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 9200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?9200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 9200"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 9300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?9300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 9300"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco Nexus 9500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bNexus[ -]?9500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco Nexus 9500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Juniper QFX10002",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX10002(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX10002"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX10008",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX10008(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX10008"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX10016",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX10016(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX10016"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Extreme VSP 4450",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?4450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 4450"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 4850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?4850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 4850"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 7200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?7200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 7200"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 7400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?7400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 7400"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 8200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?8200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 8200"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 8400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?8400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 8400"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "Extreme VSP 8600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bExtreme\\b[^\\r\\n]{0,100}\\bVSP[ -]?8600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Extreme VSP 8600"
+    ],
+    "source": "https://www.extremenetworks.com/products/switches"
+  },
+  {
+    "name": "HPE Alletra 5000",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bAlletra[ -]?5000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE Alletra 5000"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE Alletra 6000",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bAlletra[ -]?6000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE Alletra 6000"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE Alletra 9000",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bAlletra[ -]?9000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE Alletra 9000"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "Juniper QFX3500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX3500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX3500"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX3600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX3600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX3600"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5100"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5110",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5110(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5110"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5120",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5120(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5120"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5130",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5130(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5130"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5210",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5210(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5210"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5220",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5220(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5220"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5230",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5230(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5230"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper QFX5700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bQFX5700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper QFX5700"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Ruckus ICX 6430",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?6430(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 6430"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 6450",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?6450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 6450"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 6610",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?6610(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 6610"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 6650",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?6650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 6650"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7150",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7150(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7150"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7250",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7250"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7450",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7450(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7450"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7550",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7550(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7550"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7650",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7650"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7750",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7750(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7750"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 7850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?7850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 7850"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Ruckus ICX 8200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\b(?:Ruckus|Brocade|Foundry)\\b[^\\r\\n]{0,100}\\bICX[ -]?8200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Ruckus ICX 8200"
+    ],
+    "source": "https://www.ruckusnetworks.com/products/ethernet-switches/"
+  },
+  {
+    "name": "Arista DCS-7010",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7010(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7010"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7020",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7020(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7020"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7050",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7050(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7050"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7060",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7060(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7060"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7130",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7130(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7130"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7150",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7150(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7150"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7160",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7160(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7160"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7170",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7170(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7170"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7280",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7280(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7280"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7300"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7368",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7368(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7368"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7500"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista DCS-7800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bDCS-7800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista DCS-7800"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "MikroTik CRS125",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS125(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS125"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS212",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS212(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS212"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS305",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS305(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS305"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS309",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS309(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS309"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS310",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS310(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS310"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS312",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS312(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS312"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS317",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS317(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS317"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS326",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS326(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS326"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS328",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS328(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS328"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS354",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS354(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS354"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS504",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS504(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS504"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "MikroTik CRS518",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bMikroTik\\b[^\\r\\n]{0,100}\\bCRS518(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "MikroTik CRS518"
+    ],
+    "source": "https://mikrotik.com/products/group/switches"
+  },
+  {
+    "name": "HPE Synergy 480",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bSynergy[ -]?480(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE Synergy 480"
+    ],
+    "source": "https://www.hpe.com/us/en/servers/proliant-dl-servers.html"
+  },
+  {
+    "name": "Cisco UCS X210c",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?X210c(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS X210c"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Cisco UCS X410c",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?X410c(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS X410c"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Dell PowerScale",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bPowerScale(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell PowerScale"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "NetApp AFF A150",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?A150(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF A150"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF A250",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?A250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF A250"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF A400",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?A400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF A400"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF A800",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?A800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF A800"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF A900",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?A900(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF A900"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF C250",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?C250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF C250"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF C400",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?C400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF C400"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp AFF C800",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bAFF[ -]?C800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp AFF C800"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "Synology SA3200",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bSA3200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology SA3200"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Synology SA3400",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bSA3400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology SA3400"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Synology SA3600",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bSA3600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology SA3600"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Synology SA6400",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bSA6400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology SA6400"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Synology HD6500",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bSynology\\b[^\\r\\n]{0,100}\\bHD6500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Synology HD6500"
+    ],
+    "source": "https://www.synology.com/en-us/products"
+  },
+  {
+    "name": "Aruba CX 10000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?10000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 10000"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Juniper EX2200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX2200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX2200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX2300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX2300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX2300"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX3200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX3200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX3200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX3300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX3300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX3300"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX3400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX3400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX3400"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4100"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4300"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4400"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4500"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4550",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4550(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4550"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4600"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX4650",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX4650(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX4650"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX8200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX8200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX8200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Juniper EX9200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bJuniper\\b[^\\r\\n]{0,100}\\bEX9200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Juniper EX9200"
+    ],
+    "source": "https://www.juniper.net/us/en/products/switches.html"
+  },
+  {
+    "name": "Arista CCS-710",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bCCS-710(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista CCS-710"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista CCS-720",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bCCS-720(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista CCS-720"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista CCS-722",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bCCS-722(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista CCS-722"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Arista CCS-750",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bArista\\b[^\\r\\n]{0,100}\\bCCS-750(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Arista CCS-750"
+    ],
+    "source": "https://www.arista.com/en/products"
+  },
+  {
+    "name": "Cisco UCS C220",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?C220(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS C220"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Cisco UCS C240",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?C240(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS C240"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Cisco UCS C480",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?C480(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS C480"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Cisco UCS B200",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?B200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS B200"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "Cisco UCS B480",
+    "kind": "Server",
+    "deviceType": "server",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bUCS[ -]?B480(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco UCS B480"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html"
+  },
+  {
+    "name": "NetApp FAS2750",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bFAS2750(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp FAS2750"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp FAS2820",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bFAS2820(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp FAS2820"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp FAS8300",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bFAS8300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp FAS8300"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp FAS8700",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bFAS8700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp FAS8700"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp FAS9500",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bFAS9500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp FAS9500"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "QNAP TVS-h1288",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTVS-h1288(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TVS-h1288"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TVS-h1688",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTVS-h1688(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TVS-h1688"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP QuTS hero",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bQuTS[ -]?hero(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP QuTS hero"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "Cisco IE 2000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bIE[ -]?2000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco IE 2000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco IE 3000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bIE[ -]?3000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco IE 3000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco IE 4000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bIE[ -]?4000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco IE 4000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco IE 5000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bIE[ -]?5000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco IE 5000"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Aruba CX 6000",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?6000(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 6000"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 6100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?6100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 6100"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 6200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?6200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 6200"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 6300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?6300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 6300"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 6400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?6400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 6400"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 8100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?8100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 8100"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 8320",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?8320(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 8320"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 8325",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?8325(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 8325"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 8360",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?8360(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 8360"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba CX 8400",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\bCX[ -]?8400(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba CX 8400"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Huawei S12700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS12700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S12700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "NETGEAR M4100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4100"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "NETGEAR M4200",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4200(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4200"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "NETGEAR M4250",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4250"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "NETGEAR M4300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4300"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "NETGEAR M4350",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4350(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4350"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "NETGEAR M4500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bNETGEAR\\b[^\\r\\n]{0,100}\\bM4500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NETGEAR M4500"
+    ],
+    "source": "https://www.netgear.com/business/wired/switches/"
+  },
+  {
+    "name": "Dell Unity XT",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bDell\\b[^\\r\\n]{0,100}\\bUnity[ -]?XT(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Dell Unity XT"
+    ],
+    "source": "https://www.dell.com/en-us/dt/storage.htm"
+  },
+  {
+    "name": "QNAP TS-h1277",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-h1277(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-h1277"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-h1886",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-h1886(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-h1886"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-h2490",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-h2490(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-h2490"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "APC Smart-UPS",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bAPC\\b[^\\r\\n]{0,100}\\bSmart-UPS(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "APC Smart-UPS"
+    ],
+    "source": "https://www.se.com/us/en/work/products/product-launch/local/apc/"
+  },
+  {
+    "name": "Cisco CBS250",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCBS250(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco CBS250"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco CBS350",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bCBS350(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco CBS350"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Aruba 2910al",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2910al(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2910al"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 3500yl",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b3500yl(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 3500yl"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Huawei S2700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS2700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S2700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S3700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS3700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S3700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5300"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5730",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5730(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5730"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5731",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5731(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5731"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5732",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5732(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5732"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5735",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5735(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5735"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S5736",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS5736(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S5736"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S6700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS6700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S6700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S6730",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS6730(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S6730"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S7700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS7700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S7700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "Huawei S9700",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bHuawei\\b[^\\r\\n]{0,100}\\bS9700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Huawei S9700"
+    ],
+    "source": "https://e.huawei.com/en/products/switches"
+  },
+  {
+    "name": "HPE MSA 1040",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?1040(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 1040"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE MSA 2040",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?2040(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 2040"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE MSA 2050",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?2050(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 2050"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE MSA 2052",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?2052(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 2052"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE MSA 2060",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?2060(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 2060"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "HPE MSA 2062",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\b(?:HPE|HP|Hewlett[- ]Packard)\\b[^\\r\\n]{0,100}\\bMSA[ -]?2062(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "HPE MSA 2062"
+    ],
+    "source": "https://www.hpe.com/us/en/storage.html"
+  },
+  {
+    "name": "NetApp E2800",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bE2800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp E2800"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "NetApp E5700",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bNetApp\\b[^\\r\\n]{0,100}\\bE5700(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "NetApp E5700"
+    ],
+    "source": "https://www.netapp.com/data-storage/"
+  },
+  {
+    "name": "QNAP TS-1273",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-1273(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-1273"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-1673",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-1673(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-1673"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-2483",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-2483(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-2483"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-h973",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-h973(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-h973"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "APC Symmetra",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bAPC\\b[^\\r\\n]{0,100}\\bSymmetra(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "APC Symmetra"
+    ],
+    "source": "https://www.se.com/us/en/work/products/product-launch/local/apc/"
+  },
+  {
+    "name": "Cisco SG300",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bSG300(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco SG300"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco SG350",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bSG350(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco SG350"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Cisco SG500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bCisco\\b[^\\r\\n]{0,100}\\bSG500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Cisco SG500"
+    ],
+    "source": "https://www.cisco.com/c/en/us/products/switches/index.html"
+  },
+  {
+    "name": "Aruba 2930F",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2930F(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2930F"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2930M",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2930M(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2930M"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 3810M",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b3810M(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 3810M"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 5400R",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b5400R(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 5400R"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "QNAP TS-453",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-453(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-453"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-464",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-464(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-464"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "QNAP TS-873",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bTS-873(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP TS-873"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
+    "name": "Aruba 2530",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2530(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2530"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2540",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2540(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2540"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2610",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2610(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2610"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2620",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2620(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2620"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2810",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2810(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2810"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 2920",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b2920(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 2920"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "Aruba 3800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bAruba\\b[^\\r\\n]{0,100}\\b3800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Aruba 3800"
+    ],
+    "source": "https://www.arubanetworks.com/products/switches/"
+  },
+  {
+    "name": "H3C S10500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS10500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S10500"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S12500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS12500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S12500"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "Eaton 9PXM",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\b9PXM(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton 9PXM"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "Eaton 93PM",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\b93PM(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton 93PM"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "H3C S3100",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS3100(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S3100"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S3600",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS3600(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S3600"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5120",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5120(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5120"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5130",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5130(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5130"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5500"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5510",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5510(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5510"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5560",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5560(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5560"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5800"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5820",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5820(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5820"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S5850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS5850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S5850"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S6520",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS6520(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S6520"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S6800",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS6800(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S6800"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S6850",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS6850(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S6850"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S7500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS7500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S7500"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "H3C S9500",
+    "kind": "Switch",
+    "deviceType": "switch",
+    "pattern": "\\bH3C\\b[^\\r\\n]{0,100}\\bS9500(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "H3C S9500"
+    ],
+    "source": "https://www.h3c.com/en/Products_and_Solutions/InterConnect/Switches/"
+  },
+  {
+    "name": "Eaton 5PX",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\b5PX(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton 5PX"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "Eaton 9PX",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\b9PX(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton 9PX"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "Eaton 9SX",
+    "kind": "Management",
+    "deviceType": "server",
+    "pattern": "\\bEaton\\b[^\\r\\n]{0,100}\\b9SX(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "Eaton 9SX"
+    ],
+    "source": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution.html"
+  },
+  {
+    "name": "QNAP QTS",
+    "kind": "Storage",
+    "deviceType": "server",
+    "pattern": "\\bQNAP\\b[^\\r\\n]{0,100}\\bQTS(?=$|[^a-z0-9]|[a-z][0-9a-z-]*\\b)",
+    "examples": [
+      "QNAP QTS"
+    ],
+    "source": "https://www.qnap.com/en/product/"
+  },
+  {
     "name": "Fortinet FortiGate / FortiOS",
     "kind": "Firewall",
     "deviceType": "firewall",
@@ -160,26 +5811,6 @@
     "source": "https://www.cisco.com/site/us/en/products/security/firewalls/index.html"
   },
   {
-    "name": "Cisco ISE",
-    "kind": "Network access control",
-    "deviceType": "server",
-    "pattern": "\\bCisco\\s+(?:Identity Services Engine|ISE)\\b",
-    "examples": [
-      "Cisco Identity Services Engine"
-    ],
-    "source": "https://www.cisco.com/c/en/us/support/security/identity-services-engine/series.html"
-  },
-  {
-    "name": "Cisco AireOS / Catalyst wireless controller",
-    "kind": "Wireless controller",
-    "deviceType": "server",
-    "pattern": "\\bCisco\\s+(?:AireOS|Wireless LAN Controller|Catalyst 9800)\\b",
-    "examples": [
-      "Cisco Wireless LAN Controller"
-    ],
-    "source": "https://www.cisco.com/c/en/us/products/wireless/wireless-lan-controller/index.html"
-  },
-  {
     "name": "Check Point Gaia / Quantum",
     "kind": "Firewall",
     "deviceType": "firewall",
@@ -273,7 +5904,7 @@
     "name": "TP-Link Omada switch / router",
     "kind": "Router / switch",
     "deviceType": "router",
-    "pattern": "\\bTP-Link\\s+(?:Omada\\s+(?:Switch|Router|Controller)|JetStream)\\b",
+    "pattern": "\\bTP-Link\\s+(?:Omada\\s+(?:Switch|Router)|JetStream)\\b",
     "examples": [
       "TP-Link JetStream"
     ],
@@ -330,26 +5961,6 @@
     "source": "https://docs.vyos.io/"
   },
   {
-    "name": "F5 BIG-IP",
-    "kind": "Application delivery",
-    "deviceType": "server",
-    "pattern": "\\b(?:F5\\s+)?BIG-IP\\b",
-    "examples": [
-      "F5 BIG-IP Configuration Utility"
-    ],
-    "source": "https://my.f5.com/manage/s/topic/0TO1T0000006rbaWAA/bigip"
-  },
-  {
-    "name": "Citrix NetScaler",
-    "kind": "Application delivery",
-    "deviceType": "server",
-    "pattern": "\\b(?:Citrix\\s+)?NetScaler\\b",
-    "examples": [
-      "Citrix NetScaler"
-    ],
-    "source": "https://docs.netscaler.com/"
-  },
-  {
     "name": "A10 Thunder / ACOS",
     "kind": "Application delivery",
     "deviceType": "server",
@@ -368,16 +5979,6 @@
       "BlueCat Address Manager"
     ],
     "source": "https://docs.bluecatnetworks.com/"
-  },
-  {
-    "name": "EfficientIP SOLIDserver",
-    "kind": "DNS / DHCP / IPAM",
-    "deviceType": "server",
-    "pattern": "\\b(?:EfficientIP\\s+)?SOLIDserver\\b",
-    "examples": [
-      "EfficientIP SOLIDserver"
-    ],
-    "source": "https://www.efficientip.com/products/solidserver-ddi/"
   },
   {
     "name": "VMware ESX / ESXi",

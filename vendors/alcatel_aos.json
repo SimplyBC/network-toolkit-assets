@@ -66,6 +66,7 @@
     ],
     "health": [
       "show interfaces",
+      "show interfaces counters errors",
       "show health"
     ],
     "routes": [

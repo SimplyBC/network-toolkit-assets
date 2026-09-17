@@ -6,11 +6,11 @@ This repository is public. **Never include customer output, credentials, real cu
 
 ## What is here
 
-- `vendors/*.json`: all 11 existing diagram collection families, ordered core reads, documentation reads and 5–90 second command timeouts.
+- `vendors/*.json`: 15 diagram collection profiles, ordered core reads, documentation reads and 5–90 second command timeouts.
 - `catalogues/identity.json`: identity markers mapped to existing collection engines.
 - `catalogues/infrastructureProducts.json`: recognisable infrastructure, including observed-only products.
 - `catalogues/fixedEquipmentProducts.json`: confirmed fixed-equipment product patterns; existing no-login rules remain enforced by the application.
-- `tools/support_pack_schema.py`: the exact engine-1 authoring validator and bounded data parser, mirrored in the application.
+- `tools/support_pack_schema.py`: the exact engine-2 authoring validator (also accepts legacy engine-1 packs) and bounded data parser, mirrored in the application.
 - `tests/`: synthetic regression tests and recognition examples.
 - `channel/stable.json`: signed stable release, consumed over verified HTTPS. It contains public data only, encoded for unambiguous signature verification; **base64 is not encryption**.
 - `trust.json`: public Ed25519 verification key. The private key exists only in the maintainer's protected storage and the GitHub Actions signing secret.
@@ -32,6 +32,16 @@ Read [AUTHORING](docs/AUTHORING.md) and [RELEASING](docs/RELEASING.md) before ch
 
 A new model using an existing command/transport family, a command fallback, timeout, recognition rule or compatible text-output variation can be released here. New transports, authentication flows, arbitrary Python parsers, new inventory schemas, new UI capabilities, API workflows, complex topology inference and backup engines require a desktop engine release. Packs cannot load drivers, change credential handling, enter configuration mode, enable SNMP writes or add executable plugins.
 
-The current pack owns **diagram/discovery support**. Independent Configuration Backup and standalone Switch MAC Inventory remain application-owned in engine 1. Their behaviour is not silently changed by this repository. Existing complex vendor parsers, session setup, pagination and protocol-specific safeguards remain trusted application code. Parser rules normalise output into those existing parsers; they do not claim every model or firmware has been live-tested.
+The current pack owns **diagram/discovery support**. Independent Configuration Backup and standalone Switch MAC Inventory remain application-owned. Their behaviour is not silently changed by this repository. Existing complex vendor parsers, session setup, pagination and protocol-specific safeguards remain trusted application code. Parser rules normalise output into those existing parsers; they do not claim every model or firmware has been live-tested.
 
 The app ships a verified bundled baseline. Updates are downloaded in the background at most daily, validated, then activated on the next launch. Existing scans and recursively discovered seeds retain one pack version. Settings → Device support provides Check, Pause and Restore previous pack. Offline operation retains installed support; metadata expiry prevents accepting stale *new* downloads, not using already installed support.
+
+## Catalogue expansion (2.0.0 development)
+
+608 infrastructure recognition rules cover explicit product series and software identities, with examples and manufacturer sources. They cover campus/data-centre switches, wireless controllers, firewalls, servers, storage and power equipment. Product series are recognition coverage, **not 608 audited drivers or a promise about every firmware release**.
+
+Engine 2 adds Arista EOS, Ruckus/Brocade FastIron, HPE/H3C Comware and Huawei VRP switch collection: identity, interfaces, VLANs, LLDP, MAC tables and ARP. Synthetic command responses exercise the application parsers. Live hardware validation is pending; stack, LACP, routing, health and backups for these four collectors are not yet implemented. Unsupported output remains incomplete; ARP/FDB evidence does not become a direct cable.
+
+The public stable channel remains engine 1 until an engine-2 desktop and the corresponding pack are approved for publication. Old desktops must reject engine-2 packs safely. The new desktop can still validate legacy engine-1 packs.
+
+Run `python tools/expand_catalogue.py` to rebuild the explicit series entries from the maintained lists. Add realistic synthetic positive and negative recognition tests alongside new patterns. Never use OUI, a generic certificate name or a generic vendor word as proof of a supported product.

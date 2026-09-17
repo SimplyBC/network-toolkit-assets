@@ -1,0 +1,38 @@
+{
+  "id": "ruckus_fastiron",
+  "label": "Ruckus / Brocade FastIron",
+  "driver": "ruckus_fastiron",
+  "sections": {
+    "identity": [
+      "show version"
+    ],
+    "interfaces": [
+      "show interfaces brief"
+    ],
+    "vlans": [
+      "show vlan"
+    ],
+    "lldp": [
+      "show lldp neighbors detail"
+    ],
+    "fdb": [
+      "show mac-address"
+    ],
+    "arp": [
+      "show arp"
+    ]
+  },
+  "timeoutSeconds": 45,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": []
+}

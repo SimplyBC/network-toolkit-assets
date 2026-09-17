@@ -1,0 +1,38 @@
+{
+  "id": "huawei_vrp",
+  "label": "Huawei VRP switches",
+  "driver": "huawei",
+  "sections": {
+    "identity": [
+      "display version"
+    ],
+    "interfaces": [
+      "display interface brief"
+    ],
+    "vlans": [
+      "display vlan"
+    ],
+    "lldp": [
+      "display lldp neighbor"
+    ],
+    "fdb": [
+      "display mac-address"
+    ],
+    "arp": [
+      "display arp all"
+    ]
+  },
+  "timeoutSeconds": 45,
+  "documentation": {},
+  "transforms": [],
+  "variants": [],
+  "sectionOrder": [
+    "identity",
+    "interfaces",
+    "vlans",
+    "lldp",
+    "fdb",
+    "arp"
+  ],
+  "documentationOrder": []
+}

@@ -1,4 +1,4 @@
-# Infrastructure coverage — development pack 2.0.0
+# Infrastructure coverage — pack 2.0.0
 
 ## Recognition catalogue
 

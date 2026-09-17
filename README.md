@@ -36,7 +36,7 @@ The current pack owns **diagram/discovery support**. Independent Configuration B
 
 The app ships a verified bundled baseline. Updates are downloaded in the background at most daily, validated, then activated on the next launch. Existing scans and recursively discovered seeds retain one pack version. Settings → Device support provides Check, Pause and Restore previous pack. Offline operation retains installed support; metadata expiry prevents accepting stale *new* downloads, not using already installed support.
 
-## Catalogue expansion (2.0.0 development)
+## Catalogue expansion (2.0.0)
 
 608 infrastructure recognition rules cover explicit product series and software identities, with examples and manufacturer sources. They cover campus/data-centre switches, wireless controllers, firewalls, servers, storage and power equipment. Product series are recognition coverage, **not 608 audited drivers or a promise about every firmware release**.
 

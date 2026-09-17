@@ -42,6 +42,6 @@ The app ships a verified bundled baseline. Updates are downloaded in the backgro
 
 Engine 2 adds Arista EOS, Ruckus/Brocade FastIron, HPE/H3C Comware and Huawei VRP switch collection: identity, interfaces, VLANs, LLDP, MAC tables and ARP. Synthetic command responses exercise the application parsers. Live hardware validation is pending; stack, LACP, routing, health and backups for these four collectors are not yet implemented. Unsupported output remains incomplete; ARP/FDB evidence does not become a direct cable.
 
-The public stable channel remains engine 1 until an engine-2 desktop and the corresponding pack are approved for publication. Old desktops must reject engine-2 packs safely. The new desktop can still validate legacy engine-1 packs.
+The public stable channel serves signed pack 2.0.0 (engine 2, sequence 2), for Network Tool Kit 2.0.0. Older engines reject incompatible packs safely. The new desktop can still validate legacy engine-1 packs.
 
 Run `python tools/expand_catalogue.py` to rebuild the explicit series entries from the maintained lists. Add realistic synthetic positive and negative recognition tests alongside new patterns. Never use OUI, a generic certificate name or a generic vendor word as proof of a supported product.
